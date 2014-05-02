@@ -16,18 +16,26 @@ h4{
 }
 
 p{
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 header{
   margin-top: 120px;
 }
 
+body{
+}
+
 /*---------- GLOBAL CSS END ----------*/
 
 
+
+
+
+
 /*----- INDEX.HTML PAGE START -----*/
+
 /*-- TOP NAV BAR CSS START --*/
 .container-fluid{
   padding: 10px;
@@ -39,7 +47,13 @@ header{
 
 /*-- TOP NAV BAR CSS END --*/
 
+
+
 /*----- INDEX.HTML PAGE END -----*/
+
+
+
+
 
 
 
@@ -49,10 +63,12 @@ header{
 
 /*-- MY PIC CSS START --*/
 #my-pic{
+  display: block;
   width: 250px;
   height: 250px;
   position: relative;
-  left: 520px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*-- MY PIC CSS END --*/
 
@@ -95,6 +111,7 @@ header{
 
 
 
+
 /*----- ABOUT ME.HTML END -----*/
 
 
@@ -122,3 +139,38 @@ header{
 
 
 /*----- WHAT I KNOW.HTML PAGE END  -----*/
+
+
+
+
+
+
+
+
+
+
+/*----- PROJECTS PAGE.HTML START  -----*/
+
+/*-- PROJECTS LIST CSS START --*/
+.list-group{
+  text-align: center;
+  position: relative;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.list-group-item-text{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.list-group-item-text.status{
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 15px;
+  color: darkgrey;
+}
+
+/*-- PROJECTS LIST CSS END --*/
+
+
+/*----- PROJECTS PAGE.HTML END  -----*/
