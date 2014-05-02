@@ -1,4 +1,11 @@
 
+/*-- TOP NAV BAR CSS START --*/
 .container-fluid{
   padding: 10px;
 }
+
+.navbar.navbar-default{
+  border-radius: 0px;
+}
+
+/*-- TOP NAV BAR CSS END --*/
