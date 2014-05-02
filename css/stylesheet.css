@@ -1,4 +1,17 @@
+/*---------- GLOBAL CSS START ----------*/
+h1,h2{
+  text-align: center;
+}
 
+p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*---------- GLOBAL CSS END ----------*/
+
+
+/*----- INDEX.HTML PAGE START -----*/
 /*-- TOP NAV BAR CSS START --*/
 .container-fluid{
   padding: 10px;
@@ -9,3 +22,31 @@
 }
 
 /*-- TOP NAV BAR CSS END --*/
+
+/*----- INDEX.HTML PAGE END -----*/
+
+
+
+
+
+
+
+
+
+
+/*----- WHAT I KNOW.HTML PAGE START  -----*/
+
+/*-- LANGUAGES LIST CSS START --*/
+
+
+.languages.col-md-2{
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  left: 200px;
+
+}
+/*-- LANGUAGES LIST CSS END --*/
+
+
+/*----- WHAT I KNOW.HTML PAGE END  -----*/
