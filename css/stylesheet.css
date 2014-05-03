@@ -18,11 +18,19 @@ h4{
 p{
   padding-left: 250px;
   padding-right: 250px;
+  text-align: center;
 }
 
 header{
   margin-top: 120px;
 }
+
+/*a:hover{
+  color: lightblue !important;
+}
+a:active{
+  color: hotpink !important;
+}*/
 
 body{
 }
@@ -39,11 +47,16 @@ body{
 /*-- TOP NAV BAR CSS START --*/
 .container-fluid{
   padding: 10px;
+
 }
 
 .navbar.navbar-default{
   border-radius: 0px;
+  background: rgba(244, 244, 244, 0.8);
+
 }
+
+
 
 /*-- TOP NAV BAR CSS END --*/
 
@@ -69,6 +82,7 @@ body{
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 100px;
 }
 /*-- MY PIC CSS END --*/
 
@@ -77,6 +91,7 @@ body{
   padding-left: 300px;
   padding-right: 300px;
   text-align: center;
+  padding-bottom: 20px;
 }
 .aboutMePTitles{
   padding-left: 300px;
@@ -110,6 +125,30 @@ body{
 /*-- ABOUT ME TEXTS END --*/
 
 
+/*-- ABOUT ME PANELS START --*/
+.personal-panel{
+/*  background: lightblue !important;*/
+  border-top: 1px solid lightgrey !important;
+  padding: 100px;
+}
+.goals-panel{
+/*  background: lightgreen !important;*/
+  padding: 100px;
+  border-top: 1px solid lightgrey !important;
+}
+.education-panel{
+/*  background: lightyellow !important;*/
+  padding: 100px;
+  border-top: 1px solid lightgrey !important;
+  border-bottom: 1px solid lightgrey !important;
+}
+.download-panel{
+  padding: 100px;
+}
+
+/*-- ABOUT ME PANELS END --*/
+
+
 
 
 /*----- ABOUT ME.HTML END -----*/
@@ -128,13 +167,22 @@ body{
 /*-- LANGUAGES LIST CSS START --*/
 
 
-.languages.col-md-2{
+.languages.col-sm-3{
   list-style-type: none;
   text-align: center;
   position: relative;
-  left: 200px;
 
 }
+
+.whatIKnowP{
+  margin-bottom: 30px;
+}
+
+.dividerDiv{
+  border-top: 1px solid lightgrey !important;
+}
+
+
 /*-- LANGUAGES LIST CSS END --*/
 
 
