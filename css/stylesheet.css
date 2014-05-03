@@ -1,4 +1,6 @@
 /*---------- GLOBAL CSS START ----------*/
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+
 h1,h2{
   text-align: center;
 }
@@ -25,15 +27,32 @@ header{
   margin-top: 120px;
 }
 
-/*a:hover{
-  color: lightblue !important;
+i{
+  color: white !important;
 }
-a:active{
-  color: hotpink !important;
-}*/
+
+i:hover{
+  color: grey !important;
+}
+i:active{
+  color: black !important;
+}
 
 body{
+  font-family: 'Lato', sans-serif !important;
 }
+
+#footer_wrap{
+  margin-top: 110px;
+  padding: 10px;
+  border-top: 1px solid lightgrey !important;
+}
+
+.githubFooterLink{
+  color: #6600ff;
+
+}
+
 
 /*---------- GLOBAL CSS END ----------*/
 
@@ -52,13 +71,49 @@ body{
 
 .navbar.navbar-default{
   border-radius: 0px;
-  background: rgba(244, 244, 244, 0.8);
-
+  background: #6600FF;
+  border-bottom: 1px solid white;
 }
 
-
-
 /*-- TOP NAV BAR CSS END --*/
+
+/*-- HEADER CSS START --*/
+
+#meH1{
+  color: white;
+  background: #313131;
+  padding: 10px;
+  position: relative;
+  bottom: 120px;
+}
+
+#header_wrap{
+  background: white !important;
+  border: 1px solid #313131;
+  width: 700px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 110px;
+}
+
+.homePageP{
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+/*#myPic2{
+  width: 250px;
+  height: 250px;
+}*/
+
+/*-- HEADER CSS END--*/
+
+
+
 
 
 
@@ -116,10 +171,18 @@ body{
 }
 
 .downloadLink{
-  padding-top: 60px;
-  padding-bottom: 30px;
+  padding-top: 50px;
   display: block;
   text-align: center;
+  color: lightgrey !important;
+}
+
+#downloadLinkIcon{
+  color: #6600ff !important;
+}
+#downloadLinkIcon:hover{
+  color: grey !important;
+  text-decoration: underline;
 }
 
 /*-- ABOUT ME TEXTS END --*/
@@ -143,7 +206,6 @@ body{
   border-bottom: 1px solid lightgrey !important;
 }
 .download-panel{
-  padding: 100px;
 }
 
 /*-- ABOUT ME PANELS END --*/
@@ -171,6 +233,7 @@ body{
   list-style-type: none;
   text-align: center;
   position: relative;
+
 
 }
 
@@ -215,8 +278,9 @@ body{
   padding-left: 100px;
   padding-right: 100px;
   font-size: 15px;
-  color: darkgrey;
+  color: #6600ff;
 }
+
 
 /*-- PROJECTS LIST CSS END --*/
 
