@@ -71,8 +71,9 @@ body{
 
 .navbar.navbar-default{
   border-radius: 0px;
-  background: #6600FF;
-  border-bottom: 1px solid white;
+/*  background: linear-gradient(to right, #6600ff, #FF00C3, #FF9100, #24F2AA);*/
+  background: linear-gradient(to left, #6600ff, #24F2AA);
+  border-bottom: 1px solid #313131;
 }
 
 /*-- TOP NAV BAR CSS END --*/
@@ -164,7 +165,7 @@ body{
 
 .aboutMeSubs{
   font-size: 15px;
-  color: darkgrey;
+  color: #FF00C3;
 }
 
 .aboutMeSubTitles{
@@ -235,8 +236,19 @@ body{
   list-style-type: none;
   text-align: center;
   position: relative;
-
-
+/*  color: #6600ff;*/
+}
+.languages.col-sm-3 a{
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  color: #6600ff;
+}
+.languages.col-sm-3 a:hover{
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  color: grey;
 }
 
 .whatIKnowP{
@@ -280,7 +292,7 @@ body{
   padding-left: 100px;
   padding-right: 100px;
   font-size: 15px;
-  color: #6600ff;
+  color: #FF00C3;
 }
 
 
