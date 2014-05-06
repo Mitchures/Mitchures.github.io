@@ -9,6 +9,8 @@
     <link href="css/normalize.css" rel="stylesheet">
     <!-- MAIN STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css">
+    <!-- ANIMATE -->
+    <link href="css/animate.min.css" rel="stylesheet">
     <!-- FONT AWSOME -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -24,7 +26,7 @@
   </head>
   <body>
     <!-- TOP NAV BAR -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top animated slideInDown" role="navigation">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
@@ -32,11 +34,11 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars fa-2x"></i></b></a>
               <!-- DROPDOWN UL -->
               <ul class="dropdown-menu">
-                <li><a href="about_me_page.html">About Me</a></li>
+                <li class='animated slideInLeft'><a href="about_me_page.html">About Me</a></li>
                 <li class="divider"></li>
-                <li><a href="what_i_know_page.html">What I've Learned</a></li>
+                <li class='animated slideInLeft'><a href="what_i_know_page.html">What I've Learned</a></li>
                 <li class="divider"></li>
-                <li><a href="projects_page.html">Projects</a></li>
+                <li class='animated slideInLeft'><a href="projects_page.html">Projects</a></li>
 <!--                 <li class="divider"></li> -->
 <!--                 <li><a href="http://mitchellhollander.com/My-Blog/">My Blog</a></li> -->
               </ul>
@@ -59,7 +61,7 @@
       </div>
     </nav>
 
-    <header>
+    <header class='animated slideInRight'>
 
       <h1>What I've Learned</h1>
       <p class='whatIKnowP'>Since the beginning of my attendence at Nashville Software School(NSS) Cohort IV I have been exposed to a whole new world of technology.
@@ -103,7 +105,7 @@
       </div>
     </header>
     <!-- FOOTER -->
-    <div id="footer_wrap" class="outer">
+    <div id="footer_wrap" class="outer animated slideInRight">
       <footer class="inner">
         <p>Published with <a class='githubFooterLink' href="http://pages.github.com">GitHub Pages</a></p>
         <p>Copyright © 2014 Mitchell Hollander</p>
@@ -114,6 +116,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/lodash.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
 
   </body>
 </html>

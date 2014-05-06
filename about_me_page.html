@@ -9,6 +9,8 @@
     <link href="css/normalize.css" rel="stylesheet">
     <!-- MAIN STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css">
+    <!-- ANIMATE -->
+    <link href="css/animate.min.css" rel="stylesheet">
     <!-- FONT AWSOME -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -24,7 +26,7 @@
   </head>
   <body>
     <!-- TOP NAV BAR -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top animated slideInDown" role="navigation">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
@@ -32,11 +34,11 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars fa-2x"></i></b></a>
               <!-- DROPDOWN UL -->
               <ul class="dropdown-menu">
-                <li><a href="about_me_page.html">About Me</a></li>
+                <li class='animated slideInLeft'><a href="about_me_page.html">About Me</a></li>
                 <li class="divider"></li>
-                <li><a href="what_i_know_page.html">What I've Learned</a></li>
+                <li class='animated slideInLeft'><a href="what_i_know_page.html">What I've Learned</a></li>
                 <li class="divider"></li>
-                <li><a href="projects_page.html">Projects</a></li>
+                <li class='animated slideInLeft'><a href="projects_page.html">Projects</a></li>
 <!--                 <li class="divider"></li> -->
 <!--                 <li><a href="http://mitchellhollander.com/My-Blog/">My Blog</a></li> -->
               </ul>
@@ -62,9 +64,9 @@
 
 
 
-      <h1>About Me</h1>
-      <img id='my-pic' src='images/me.jpeg'>
-      <div class='personal-panel'>
+      <h1 class='animated slideInDown'>About Me</h1>
+      <img id='my-pic' src='images/me.jpeg' class='animated slideInDown'>
+      <div class='personal-panel animated slideInRight'>
         <h2 id='personel-title' class='aboutMeH2'>Personal Description</h2>
         <p class='aboutMeP'>My name is Mitchell Hollander. I am a native of Louisiana.  Born and raised in the outskirts of New Orleans, LA. I have two siblings.
           An older brother who is an Attorney at Law and an older sister who is an art education major at a university in Louisiana.
@@ -121,6 +123,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/lodash.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
 
   </body>
 </html>

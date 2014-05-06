@@ -9,6 +9,8 @@
     <link href="css/normalize.css" rel="stylesheet">
     <!-- MAIN STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css">
+    <!-- ANIMATE -->
+    <link href="css/animate.min.css" rel="stylesheet">
     <!-- FONT AWSOME -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -24,7 +26,7 @@
   </head>
   <body>
     <!-- TOP NAV BAR -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top animated slideInDown" role="navigation">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
@@ -32,11 +34,11 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars fa-2x"></i></b></a>
               <!-- DROPDOWN UL -->
               <ul class="dropdown-menu">
-                <li><a href="about_me_page.html">About Me</a></li>
+                <li class='animated slideInLeft'><a href="about_me_page.html">About Me</a></li>
                 <li class="divider"></li>
-                <li><a href="what_i_know_page.html">What I've Learned</a></li>
+                <li class='animated slideInLeft'><a href="what_i_know_page.html">What I've Learned</a></li>
                 <li class="divider"></li>
-                <li><a href="projects_page.html">Projects</a></li>
+                <li class='animated slideInLeft'><a href="projects_page.html">Projects</a></li>
 <!--                 <li class="divider"></li> -->
 <!--                 <li><a href="http://mitchellhollander.com/My-Blog/">My Blog</a></li> -->
               </ul>
@@ -60,19 +62,19 @@
     </nav>
 
     <header>
-      <h1>Projects</h1>
+      <h1 class='animated slideInDown'>Projects</h1>
       <div class="list-group">
-        <a class="list-group-item" href="http://mitchellhollander.com/Mitchsta-Chat">
+        <a class="list-group-item animated slideInRight" href="http://mitchellhollander.com/Mitchsta-Chat">
           <h4 class="list-group-item-heading">Mitchsta Chat</h4>
           <p class="list-group-item-text">A chatroom application using the Firebase DB and API.</p>
           <p class="list-group-item-text status">Complete</p>
         </a>
-        <a class="list-group-item" href="http://tagstapic.herokuapp.com/">
+        <a class="list-group-item outer animated slideInLeft" href="http://tagstapic.herokuapp.com/">
           <h4 class="list-group-item-heading">Tagstapic</h4>
           <p class="list-group-item-text">A small side project that pulls in pictures from Instagram's API and creates a slide show.</p>
           <p class="list-group-item-text status">Complete</p>
         </a>
-        <a class="list-group-item" href="http://e-code.herokuapp.com/">
+        <a class="list-group-item animated slideInRight" href="http://e-code.herokuapp.com/">
           <h4 class="list-group-item-heading">E-code</h4>
           <p class="list-group-item-text">NSS Cohort IV first-half final project. A study app that allows you to take tests on certain code languages.</p>
           <p class="list-group-item-text status">Incomplete</p>
@@ -84,7 +86,7 @@
 
 
     <!-- FOOTER -->
-    <div id="footer_wrap" class="outer">
+    <div id="footer_wrap" class="outer animated slideInLeft">
       <footer class="inner">
         <p>Published with <a class='githubFooterLink' href="http://pages.github.com">GitHub Pages</a></p>
         <p>Copyright © 2014 Mitchell Hollander</p>
@@ -95,6 +97,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/lodash.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
 
   </body>
 </html>
