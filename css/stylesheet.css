@@ -83,6 +83,14 @@ body{
   border-bottom: 0px solid #313131;
 }
 
+#my-pic2{
+  width: 30px;
+  height: 30px;
+  border-radius: 130px;
+  border: 1px solid #6600ff;
+  margin: 12px;
+}
+
 .animated.slideInLeft{
   -webkit-animation-duration: .1s;
   -webkit-animation-delay: 0s;
@@ -190,6 +198,7 @@ ul.dropdown-menu{
   border-radius: 130px;
   border: 1px solid #313131;
 }
+
 /*-- MY PIC CSS END --*/
 
 /*-- ABOUT ME TEXTS START --*/
