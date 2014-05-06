@@ -332,6 +332,15 @@ ul.dropdown-menu{
   margin-right: 300px;
 }
 
+.list-group-item:hover{
+  background: lightgrey !important;
+
+}
+.list-group-item:active{
+  background: #6600ff !important;
+
+}
+
 .list-group-item-text{
   padding-left: 100px;
   padding-right: 100px;
@@ -341,6 +350,9 @@ ul.dropdown-menu{
   padding-right: 100px;
   font-size: 15px;
   color: #6600ff;
+}
+
+.list-group-item-text.status:hover{
 }
 
 
