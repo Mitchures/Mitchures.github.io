@@ -4,6 +4,7 @@
 
 h1,h2{
   text-align: center;
+  text-shadow: 0px 0px 5px white !important;
 }
 
 h3{
@@ -43,18 +44,40 @@ i:active{
   color: black !important;
 }
 
+#body{
+  font-family: 'Lato', sans-serif !important;
+  background-image: url(../images/bg_body_new.jpg) !important;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+}
 body{
   font-family: 'Lato', sans-serif !important;
-/*  overflow: auto;
-  overflow-x: hidden !important;*/
-/*  overflow-y: auto !important;*/
+  background: #EDEDED !important;
 }
 
+
+
+
 #footer_wrap{
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: auto;
   padding: 10px;
-  border-top: 1px solid lightgrey !important;
+  /*border-top: 1px solid lightgrey !important;*/
+}
+
+
+.bg-divider{
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-right: auto;
+  display: block;
+}
+.bg-divider-flipped{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  -webkit-transform: rotate(-180deg);
+
 }
 
 .githubFooterLink{
@@ -247,6 +270,7 @@ ul.dropdown-menu{
   text-align: left;
   padding-bottom: 20px;
   font-size: 20px;
+  text-shadow: 0px 0px 5px white !important;
 }
 .aboutMePTitles{
   padding-left: 300px;
@@ -353,7 +377,7 @@ ul.dropdown-menu{
 }
 
 .dividerDiv{
-  border-top: 1px solid lightgrey !important;
+  /*border-top: 1px solid lightgrey !important;*/
 }
 
 
