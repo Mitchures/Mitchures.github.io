@@ -58,6 +58,7 @@ body{
 
 
 
+
 #footer_wrap{
   margin-top: 30px;
   margin-bottom: auto;
@@ -75,6 +76,7 @@ body{
 .bg-divider-flipped{
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
   display: block;
   -webkit-transform: rotate(-180deg);
 
@@ -167,7 +169,7 @@ body{
   width: 250px;
   height: 250px;
   position: relative;
-  bottom: 40px;
+  bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 130px;
@@ -270,7 +272,7 @@ ul.dropdown-menu{
   text-align: left;
   padding-bottom: 20px;
   font-size: 20px;
-  text-shadow: 0px 0px 5px white !important;
+  text-shadow: 0px 0px 5px #EDEDED !important;
 }
 .aboutMePTitles{
   padding-left: 300px;
