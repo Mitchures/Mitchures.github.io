@@ -46,9 +46,9 @@ i:active{
 
 #body{
   font-family: 'Lato', sans-serif !important;
-  /*background-image: url(../images/bg_body_new.jpg) !important;*/
-  /*background-size: 100% 100% !important;*/
-  /*background-repeat: no-repeat !important;*/
+  background-image: url(../images/bg_body_new.jpg) !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
   /*background-attachment: fixed !important;*/
   /*background-position: center !important;*/
 }
