@@ -113,7 +113,26 @@ body{
   height: 30px;
   border-radius: 130px;
   border: 1px solid #6600ff;
-  margin: 12px;
+  /*margin: 12px;*/
+}
+#mySmallPic:hover{
+  width: 30px;
+  height: 30px;
+  border-radius: 130px;
+  border: 1px solid grey;
+  /*margin: 12px;*/
+}
+#mySmallPic:active{
+  width: 30px;
+  height: 30px;
+  border-radius: 130px;
+  border: 1px solid #313131;
+  /*margin: 12px;*/
+}
+
+.mySmallLink{
+  position: relative;
+  bottom: 2px;
 }
 
 .bioLinks{
