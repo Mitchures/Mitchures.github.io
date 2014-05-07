@@ -45,6 +45,9 @@ i:active{
 
 body{
   font-family: 'Lato', sans-serif !important;
+/*  overflow: auto;
+  overflow-x: hidden !important;*/
+/*  overflow-y: auto !important;*/
 }
 
 #footer_wrap{
@@ -59,6 +62,41 @@ body{
 
 }
 
+.navbar.navbar-default{
+  border-radius: 0px;
+/*  background: linear-gradient(to right, #6600ff, #FF00C3, #FF9100, #24F2AA);*/
+  background: rgba(250, 250, 250, .0);
+/*  background: #6600ff;*/
+  border-bottom: 0px solid #313131;
+}
+
+.container-fluid{
+  padding: 10px;
+
+}
+
+/*-- ANIMATIONS CSS START --*/
+.animated.fadeIn{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+}
+
+.animated.slideInDown{
+  -webkit-animation-duration: .5s;
+  -webkit-animation-delay: 0s;
+  -webkit-overflow: hidden;
+}
+.menu.animated.fadeInDown{
+  -webkit-animation-duration: .1s;
+  -webkit-animation-delay: 0s;
+  -webkit-overflow: hidden;
+}
+
+
+
+
+
+/*-- ANIMATIONS CSS END --*/
 
 /*---------- GLOBAL CSS END ----------*/
 
@@ -69,21 +107,8 @@ body{
 
 /*----- INDEX.HTML PAGE START -----*/
 
-/*-- TOP NAV BAR CSS START --*/
-.container-fluid{
-  padding: 10px;
 
-}
-
-.navbar.navbar-default{
-  border-radius: 0px;
-/*  background: linear-gradient(to right, #6600ff, #FF00C3, #FF9100, #24F2AA);*/
-  background: rgba(250, 250, 250, .0);
-/*  background: #6600ff;*/
-  border-bottom: 0px solid #313131;
-}
-
-#my-pic2{
+#mySmallPic{
   width: 30px;
   height: 30px;
   border-radius: 130px;
@@ -91,26 +116,22 @@ body{
   margin: 12px;
 }
 
-.animated.slideInLeft{
-  -webkit-animation-duration: .1s;
-  -webkit-animation-delay: 0s;
+.bioLinks{
+  color: #6600ff;
 }
-.animated.slideOutLeft{
-  -webkit-animation-duration: .1s;
-  -webkit-animation-delay: 0s;
+
+.myPic2{
+  display: block;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 130px;
+  border: 1px solid #313131;
 }
-.animated.slideInDown{
-  -webkit-animation-duration: .5s;
-  -webkit-animation-delay: 0s;
-}
-.animated.slideInRight{
-  -webkit-animation-duration: .5s;
-  -webkit-animation-delay: 0s;
-}
-.outer.animated.slideInLeft{
-  -webkit-animation-duration: .5s;
-  -webkit-animation-delay: 0s;
-}
+
 
 ul.dropdown-menu a{
 /*  margin-top: 10px;*/
@@ -132,7 +153,6 @@ ul.dropdown-menu{
   box-shadow: 0px 0px 0px white;
   border: 0px solid white;
 }
-/*-- TOP NAV BAR CSS END --*/
 
 /*-- HEADER CSS START --*/
 
@@ -144,7 +164,7 @@ ul.dropdown-menu{
   bottom: 120px;
 }
 
-#header_wrap{
+/*#header_wrap{
   background: white !important;
   border: 1px solid #6600ff;
   width: 700px;
@@ -153,7 +173,7 @@ ul.dropdown-menu{
   margin-right: auto;
   margin-bottom: 50px;
   margin-top: 110px;
-}
+}*/
 
 .homePageP{
   font-size: 20px;
@@ -205,8 +225,9 @@ ul.dropdown-menu{
 .aboutMeP{
   padding-left: 200px;
   padding-right: 200px;
-  text-align: center;
+  text-align: left;
   padding-bottom: 20px;
+  font-size: 20px;
 }
 .aboutMePTitles{
   padding-left: 300px;
