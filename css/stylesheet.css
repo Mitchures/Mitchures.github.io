@@ -30,7 +30,7 @@ header{
 }
 
 i{
-  color: #6600ff !important;
+  color: #009996 !important;
 }
 
 i:hover{
@@ -95,6 +95,7 @@ body{
   border-bottom: 0px solid #313131;
 }
 
+
 .container-fluid{
   padding: 10px;
 
@@ -138,7 +139,7 @@ body{
   width: 30px;
   height: 30px;
   border-radius: 130px;
-  border: 1px solid #6600ff;
+  border: 1px solid #009996;
   /*margin: 12px;*/
 }
 #mySmallPic:hover{
@@ -268,8 +269,8 @@ ul.dropdown-menu{
 
 /*-- ABOUT ME TEXTS START --*/
 .aboutMeP{
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 220px;
+  padding-right: 220px;
   text-align: left;
   padding-bottom: 20px;
   font-size: 20px;
@@ -420,6 +421,12 @@ ul.dropdown-menu{
 .list-group-item-text{
   padding-left: 100px;
   padding-right: 100px;
+}
+.list-group-item{
+  /*padding: 40px;*/
+  border-radius: 0px !important;
+  border: 1px solid transparent !important;
+  background: transparent !important;
 }
 .list-group-item-text.status{
   padding-left: 100px;
