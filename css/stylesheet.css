@@ -35,6 +35,7 @@ i{
 
 i:hover{
   color: grey !important;
+
 }
 a:hover{
   color: grey !important;
@@ -62,7 +63,7 @@ body{
 
 
 #footer_wrap{
-  margin-top: 30px;
+  margin-top: auto;
   margin-bottom: auto;
   padding: 10px;
   /*border-top: 1px solid lightgrey !important;*/
@@ -92,8 +93,9 @@ body{
 .navbar.navbar-default{
   border-radius: 0px;
 /*  background: linear-gradient(to right, #6600ff, #FF00C3, #FF9100, #24F2AA);*/
+  /*background: linear-gradient(to bottom, white, transparent);*/
   background: rgba(250, 250, 250, .0);
-/*  background: #6600ff;*/
+  /*background: ;*/
   border-bottom: 0px solid #313131;
 }
 
@@ -137,27 +139,6 @@ body{
 
 
 
-#mySmallPic{
-  width: 30px;
-  height: 30px;
-  border-radius: 130px;
-  border: 1px solid #009996;
-  /*margin: 12px;*/
-}
-#mySmallPic:hover{
-  width: 30px;
-  height: 30px;
-  border-radius: 130px;
-  border: 1px solid grey;
-  /*margin: 12px;*/
-}
-#mySmallPic:active{
-  width: 30px;
-  height: 30px;
-  border-radius: 130px;
-  border: 1px solid #313131;
-  /*margin: 12px;*/
-}
 
 .mySmallLink{
   position: relative;
@@ -167,19 +148,6 @@ body{
 .bioLinks{
   color: #6600ff;
 }
-
-.myPic2{
-  display: block;
-  width: 250px;
-  height: 250px;
-  position: relative;
-  bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 130px;
-  border: 1px solid #313131;
-}
-
 
 ul.dropdown-menu a{
 /*  margin-top: 10px;*/
@@ -212,17 +180,6 @@ ul.dropdown-menu{
   bottom: 120px;
 }
 
-/*#header_wrap{
-  background: white !important;
-  border: 1px solid #6600ff;
-  width: 700px;
-  height: 350px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-  margin-top: 110px;
-}*/
-
 .homePageP{
   font-size: 20px;
   padding-left: 50px;
@@ -230,12 +187,80 @@ ul.dropdown-menu{
   text-align: center;
 }
 
-/*#myPic2{
+/*-- HEADER CSS END--*/
+
+/*-- DOWNLOAD LINK CSS START --*/
+
+.downloadLink{
+  padding: 50px;
+  display: block;
+  text-align: center;
+  color: lightgrey !important;
+}
+
+#downloadLinkIcon{
+  color: #6600ff !important;
+}
+#downloadLinkIcon:hover{
+  color: grey !important;
+  text-decoration: underline;
+}
+
+/*-- DOWNLOAD LINK CSS END --*/
+
+/*-- MY PIC CSS START --*/
+
+.myPic2{
+  display: block;
   width: 250px;
   height: 250px;
-}*/
+  position: relative;
+  bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 130px;
+  border: 1px solid #313131;
+}
 
-/*-- HEADER CSS END--*/
+
+#my-pic{
+  display: block;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 130px;
+  border: 1px solid #313131;
+
+}
+
+#mySmallPic{
+  width: 30px;
+  height: 30px;
+  border-radius: 130px;
+  border: 1px solid #009996;
+  /*margin: 12px;*/
+}
+#mySmallPic:hover{
+  width: 30px;
+  height: 30px;
+  border-radius: 130px;
+  border: 1px solid grey;
+  /*margin: 12px;*/
+}
+#mySmallPic:active{
+  width: 30px;
+  height: 30px;
+  border-radius: 130px;
+  border: 1px solid #313131;
+  /*margin: 12px;*/
+}
+
+
+/*-- MY PIC CSS END --*/
+
 
 
 
@@ -252,24 +277,41 @@ ul.dropdown-menu{
 
 
 
-/*----- ABOUT ME.HTML START -----*/
+/*----- ARTWORK.HTML START -----*/
 
-/*-- MY PIC CSS START --*/
-#my-pic{
+/*-- ARTWORK START --*/
+
+.media-object{
+  width: 75%;
+  height: 75%;
   display: block;
-  width: 250px;
-  height: 250px;
-  position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
-  border-radius: 130px;
   border: 1px solid #313131;
 }
+/*.media-object:hover{
+  cursor: pointer;
+  -webkit-filter: grayscale(70%);
+  border: 1px solid #313131;
+}*/
 
-/*-- MY PIC CSS END --*/
+.label{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-/*-- ABOUT ME TEXTS START --*/
+.row.artwork{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/*-- ARTWORK END --*/
+
+/*-- ARTWORK TEXTS START --*/
+
 .aboutMeP{
   padding-left: auto;
   padding-right: auto;
@@ -300,50 +342,15 @@ ul.dropdown-menu{
   color: grey;
 }
 
-.downloadLink{
-  padding: 50px;
-  display: block;
-  text-align: center;
-  color: lightgrey !important;
-}
-
-#downloadLinkIcon{
-  color: #6600ff !important;
-}
-#downloadLinkIcon:hover{
-  color: grey !important;
-  text-decoration: underline;
-}
-
-/*-- ABOUT ME TEXTS END --*/
 
 
-/*-- ABOUT ME PANELS START --*/
-.personal-panel{
-/*  background: lightblue !important;*/
-  border-top: 1px solid lightgrey !important;
-  padding: 100px;
-}
-.goals-panel{
-/*  background: lightgreen !important;*/
-  padding: 100px;
-  border-top: 1px solid lightgrey !important;
-}
-.education-panel{
-/*  background: lightyellow !important;*/
-  padding: 100px;
-  border-top: 1px solid lightgrey !important;
-  border-bottom: 1px solid lightgrey !important;
-}
-.download-panel{
-}
-
-/*-- ABOUT ME PANELS END --*/
+/*-- ARTWORK TEXTS END --*/
 
 
 
 
-/*----- ABOUT ME.HTML END -----*/
+
+/*----- ARTWORK.HTML END -----*/
 
 
 
