@@ -271,8 +271,8 @@ ul.dropdown-menu{
 
 /*-- ABOUT ME TEXTS START --*/
 .aboutMeP{
-  padding-left: 220px;
-  padding-right: 220px;
+  padding-left: auto;
+  padding-right: auto;
   text-align: left;
   padding-bottom: 20px;
   font-size: 20px;
@@ -379,6 +379,10 @@ ul.dropdown-menu{
 }
 
 .whatIKnowP{
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  font-size: 15px;
   margin-bottom: 30px;
 }
 
