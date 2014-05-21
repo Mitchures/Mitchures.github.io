@@ -114,6 +114,10 @@ body{
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
+.animated.fadeOut{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+}
 
 .animated.slideInDown{
   -webkit-animation-duration: .5s;
