@@ -5,10 +5,10 @@
   $(document).ready(initialize);
 
   function initialize(){
-    $(document).bootstrap();
+    // $(document).bootstrap();
   }
 
-  
+
 
 
 
