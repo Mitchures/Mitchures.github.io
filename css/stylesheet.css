@@ -1,7 +1,9 @@
 /*---------- GLOBAL CSS START ----------*/
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300);
 
-
+footer{
+  margin-top: 0 auto !important;
+}
 
 
 h1,h2{
