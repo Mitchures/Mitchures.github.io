@@ -34,7 +34,8 @@ header{
 }
 
 i{
-  color: #009996 !important;
+  /*color: #009996 !important;*/
+  color: #313131 !important;
 }
 
 i:hover{
@@ -50,16 +51,19 @@ i:active{
 }
 
 #body{
-  font-family: 'Lato', sans-serif !important;
-  background-image: url(../images/bg_body_new.jpg) !important;
+  /*font-family: 'Lato', sans-serif !important;
+  background-image: url(../images/bg-custom.png) !important;
   background-size: 100% 100% !important;
-  background-repeat: no-repeat !important;
+  background-repeat: no-repeat !important;*/
   /*background-attachment: fixed !important;*/
   /*background-position: center !important;*/
 }
 body{
+  background-image: url(../images/bg-custom.png) !important;
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
   font-family: 'Lato', sans-serif !important;
-  background: #F3F1F2 !important;
+  /*background: #F3F1F2 !important;*/
 }
 
 
@@ -221,7 +225,8 @@ body{
     width: 50px !important;
     height: 50px !important;
     border-radius: 130px !important;
-    border: 1px solid #009996 !important;
+    /*border: 1px solid #009996 !important;*/
+    border: 1px solid #313131 !important;
     float: right !important;
     /*margin-bottom: 12px;*/
   }
@@ -230,7 +235,7 @@ body{
     width: 50px !important;
     height: 50px !important;
     border-radius: 130px !important;
-    border: 1px solid #313131 !important;
+    border: 1px solid grey !important;
     /*margin: 12px;*/
   }
 
@@ -405,7 +410,8 @@ ul.dropdown-menu{
   width: 30px;
   height: 30px;
   border-radius: 130px;
-  border: 1px solid #009996;
+  /*border: 1px solid #009996;*/
+  border: 1px solid #313131;
   /*margin: 12px;*/
 }
 #mySmallPic:hover{
