@@ -1,6 +1,7 @@
 /*---------- GLOBAL CSS START ----------*/
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300);
 
+
 footer{
   margin-top: 0 auto !important;
 }
@@ -173,7 +174,7 @@ body{
 
   #body{
     font-family: 'Lato', sans-serif !important;
-    background-image: url(../images/bg_body_new.jpg) !important;
+    background-image: url(../images/bg-custom.png) !important;
     background-size: 100% !important;
     background-repeat: no-repeat !important;
   }
