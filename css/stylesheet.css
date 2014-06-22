@@ -123,6 +123,14 @@ body{
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
+.animated.fadeInUp.content{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+}
+.animated.fadeInDown.content{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+}
 .animated.fadeOut{
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
@@ -136,6 +144,31 @@ body{
 .menu.animated.fadeInDown{
   -webkit-animation-duration: .1s;
   -webkit-animation-delay: 0s;
+  -webkit-overflow: hidden;
+}
+.menu.animated.fadeInDown.one{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .6s;
+  -webkit-overflow: hidden;
+}
+.menu.animated.fadeInDown.two{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .7s;
+  -webkit-overflow: hidden;
+}
+.menu.animated.fadeInDown.three{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .8s;
+  -webkit-overflow: hidden;
+}
+.menu.animated.fadeInDown.four{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .9s;
+  -webkit-overflow: hidden;
+}
+.menu.animated.fadeInDown.five{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
   -webkit-overflow: hidden;
 }
 
