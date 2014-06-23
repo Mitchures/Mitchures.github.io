@@ -10,7 +10,7 @@
   }
 
   function fadeOut(){
-    $('header').fadeOut('slow');
+    $('header').fadeOut('fast');
   }
 
 
