@@ -5,7 +5,12 @@
   $(document).ready(initialize);
 
   function initialize(){
-    // $(document).bootstrap();
+    $('.options').click(fadeOut);
+
+  }
+
+  function fadeOut(){
+    $('header').fadeOut('slow');
   }
 
 
