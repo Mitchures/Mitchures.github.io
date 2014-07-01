@@ -131,6 +131,18 @@ body{
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
+.animated.fadeInLeft{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+}
+.animated.fadeInRight{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+}
+.animated.fadeInUp{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+}
 .animated.fadeOut{
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
@@ -655,6 +667,9 @@ ul.dropdown-menu{
 
 .list-group-item-text.status:hover{
 }
+
+
+
 
 
 /*-- PROJECTS LIST CSS END --*/

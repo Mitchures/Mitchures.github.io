@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css">
     <!-- ANIMATE -->
     <link href="css/animate.min.css" rel="stylesheet">
+    <!-- HOVER GRID CSS -->
+    <link href="css/component.css" rel="stylesheet">
     <!-- FONT AWSOME -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -85,10 +87,47 @@
       </div>
     </nav>
 
-    <header class='animated fadeIn'>
-      <img class='bg-divider' src='images/bg_divider.png'>
-      <h1>Projects</h1>
-      <div class="list-group">
+    <header>
+      <img class='bg-divider animated fadeInDown content' src='images/bg_divider.png'>
+      <h1 class='animated fadeInDown content'>Projects</h1>
+
+      <div class="grid">
+
+        <figure class="effect-romeo animated fadeInLeft">
+            <img src="img/11.jpg" alt="img11"/>
+            <figcaption>
+                <h2>Pre <span>Wake</span></h2>
+                <p>A pre Wake app, using Rails, where friends can post what they will miss about you before you "kick the bucket".</p>
+                <a href="https://pre-wake.herokuapp.com/">View more</a>
+            </figcaption>
+        </figure>
+        <figure class="effect-romeo animated fadeInUp">
+            <img src="img/1.jpg" alt="img01"/>
+            <figcaption>
+                <h2>Mitchsta<span>Pic</span></h2>
+                <p>My Tagstapic App refactored with new animations and new UI.</p>
+                <a href="http://mitchellhollander.com/Mitch-sta-pic">View more</a>
+            </figcaption>
+        </figure>
+        <figure class="effect-romeo animated fadeInRight">
+            <img src="img/3.jpg" alt="img03"/>
+            <figcaption>
+                <h2>Mitchsta<span>Chat</span></h2>
+                <p>A chatroom application using the Firebase DB and API. It's also mobile friendly and has a different UI when using it on a mobile device.</p>
+                <a href="http://mitchellhollander.com/Mitchsta-Chat">View more</a>
+            </figcaption>
+        </figure>
+        <figure class="effect-romeo animated fadeInUp">
+            <img src="img/4.jpg" alt="img04"/>
+            <figcaption>
+                <h2>Tagsta<span>Pic</span></h2>
+                <p>A small side project that pulls in pictures from Instagram's API and creates a slide show.</p>
+                <a href="http://tagstapic.herokuapp.com/">View more</a>
+            </figcaption>
+        </figure>
+
+      </div>
+      <!-- <div class="list-group">
         <a class="list-group-item" href="https://pre-wake.herokuapp.com/">
           <h4 class="list-group-item-heading">Pre Wake</h4>
           <p class="list-group-item-text">A pre Wake app, using Rails, where friends can post what they will miss about you before you "kick the bucket".</p>
@@ -109,13 +148,8 @@
           <p class="list-group-item-text">A small side project that pulls in pictures from Instagram's API and creates a slide show.</p>
           <p class="list-group-item-text status">Complete</p>
         </a>
-        <!-- <a class="list-group-item" href="http://e-code.herokuapp.com/">
-          <h4 class="list-group-item-heading">E-code</h4>
-          <p class="list-group-item-text">NSS Cohort IV first-half final project. A study app that allows you to take tests on certain code languages.</p>
-          <p class="list-group-item-text status">Incomplete</p>
-        </a> -->
 
-      </div>
+      </div> -->
     </header>
 
 
