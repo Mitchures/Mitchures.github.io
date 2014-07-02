@@ -140,6 +140,7 @@ html, body, .perspective {
 
 .outer-nav a:hover {
 	color: #ffdccd;
+	text-decoration: none;
 }
 
 .outer-nav.vertical a {
@@ -244,7 +245,7 @@ html, body, .perspective {
 
 /* Effect Move Left */
 .effect-moveleft {
-	background: #f4f3f1;
+	background: #66D9EF;
 }
 
 .effect-moveleft .container {
@@ -268,7 +269,7 @@ html, body, .perspective {
 }
 
 .effect-moveleft .outer-nav a {
-	color: #e86a32;
+	color: white;
 	opacity: 0;
 	-webkit-transform: translateX(100px) translateZ(-1000px);
 	transform: translateX(100px) translateZ(-1000px);
@@ -278,6 +279,7 @@ html, body, .perspective {
 
 .effect-moveleft .outer-nav a:hover {
 	color: #333;
+	text-decoration: none;
 }
 
 .effect-moveleft.animate .outer-nav a {
@@ -387,7 +389,7 @@ html, body, .perspective {
 
 /* Effect Move Down */
 .effect-movedown {
-	background: #34495e;
+	background: #2ED1C0;
 }
 
 .effect-movedown .container {
@@ -420,6 +422,7 @@ html, body, .perspective {
 
 .effect-movedown .outer-nav a:hover {
 	color: #ed8151;
+	text-decoration: none;
 }
 
 .effect-movedown.animate .outer-nav a {
@@ -534,7 +537,7 @@ html, body, .perspective {
 
 /* Effect Lay Down */
 .effect-laydown {
-	background: #b8b6b4;
+	background: #6600ff;
 }
 
 .effect-laydown .container {

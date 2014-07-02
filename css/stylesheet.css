@@ -48,8 +48,14 @@ header{
 
 i{
   /*color: #009996 !important;*/
+  color: white !important;
+}
+i.menuShow{
+  /*color: #009996 !important;*/
   color: #313131 !important;
 }
+
+
 
 i:hover{
   color: grey !important;
@@ -64,10 +70,12 @@ i:active{
 }
 
 #showMenu{
-  margin-top: 10px !important;
+  margin-top: 15px !important;
+  padding: 5px !important;
 }
 .menuShow{
-  margin-top: 10px !important;
+  margin-top: 15px !important;
+  padding: 5px !important;
 }
 
 #body{
