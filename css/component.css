@@ -30,7 +30,7 @@
 	height: 282px;
 	/*-- Added Border --*/
 	/*border-radius: 250px;*/
-	/*border: 1px solid #313131;*/
+	border: 1px solid #313131;
 	/*width: 33.333%;
 	height: 400px;*/
 	/*background: #3085a3;*/
@@ -293,7 +293,7 @@ figure.effect-roxy:hover p {
 /*---------------*/
 
 figure.effect-bubba {
-	background: #9e5406;
+	background: #66D9EF;
 }
 
 figure.effect-bubba img {
