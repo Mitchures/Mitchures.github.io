@@ -52,6 +52,8 @@ header{
   /*margin-top: 80px;*/
 }
 
+
+
 i{
   /*color: #009996 !important;*/
   color: white !important;
@@ -80,6 +82,12 @@ i:active{
   margin-top: 15px !important;
   padding: 5px !important;
 }
+#trigger-overlay{
+  margin-top: 15px !important;
+  padding: 5px !important;
+  margin-left: 15px !important;
+}
+
 .menuShow{
   margin-top: 15px !important;
   padding: 5px !important;
@@ -97,7 +105,7 @@ body{
   /*background-image: url(../images/bg-custom.png) !important;
   background-size: 100% !important;
   background-repeat: no-repeat !important;*/
-  font-family: 'Lato-Hairline' !important;
+  font-family: 'Lato-Light' !important;
   /*font-family: 'Lato', sans-serif !important;*/
   /*background: #F3F1F2 !important;*/
 }

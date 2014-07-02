@@ -7,7 +7,7 @@
 
 
   function initialize(){
-    $('#footer_wrap').load('footer.html');
+    $('#footer_wrap').load('_footer.html');
     $('.options').click(fadeOut);
 
   }
