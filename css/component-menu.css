@@ -20,10 +20,10 @@ html, body, .perspective {
 }
 
 .container {
-	background-image: url(../images/bg-custom.png) !important;
-	background-size: 100% !important;
-	background-repeat: no-repeat !important;
-	/*background: #fff;*/
+	/*background-image: url(../images/bg-custom.png) !important;*/
+	/*background-size: 100% !important;*/
+	/*background-repeat: no-repeat !important;*/
+	background: #fff;
 	min-height: 100%;
 	min-width: 100%;
 	position: relative;
