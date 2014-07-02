@@ -4,6 +4,7 @@
 
   $(document).ready(initialize);
 
+
   function initialize(){
     $('.options').click(fadeOut);
 
@@ -13,7 +14,7 @@
     $('header').fadeOut('fast');
   }
 
-  
+
 
 
 
