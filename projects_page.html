@@ -18,11 +18,12 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <!-- BOOTSTRAP -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- GOOGLE FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+
+    <link href="css/component-menu.css" rel="stylesheet">
 
     <!-- MODERNIZR SCRIPT -->
     <script src="js/modernizr.js"></script>
+    <script src="js/modernizr.custom.25376.js"></script>
 
     <title>Projects</title>
   </head>
@@ -34,7 +35,6 @@
             <li class="dropdown visible-xs">
               <a href="#" class="dropdown-toggle visible-xs" data-toggle="dropdown"><i class="fa fa-bars fa-3x"></i></a>
               <ul class="dropdown-menu">
-<!--                 <li class='animated slideInLeft'><a href="about_me_page.html">About Me</a></li> -->
                 <li class='menu animated fadeInDown'><a href="index.html">Home</a></li>
                 <li class="divider menu animated fadeInDown"></li>
                 <li class='menu animated fadeInDown'><a href="what_i_know_page.html">What I've Learned</a></li>
@@ -46,126 +46,119 @@
       </div>
     </nav>
 
+    <div id="perspective" class="perspective effect-movedown">
+      <div class="container">
+          <div class="wrapper">
+            <a id="showMenu"><i class="fa fa-bars fa-3x menuShow animated fadeInDown"></i></a>
+            <header>
+              <!-- <img class='bg-divider animated fadeInDown content' src='images/bg_divider.png'> -->
+              <h1 id='project-title' class='animated fadeInDown content'>Projects</h1>
+
+              <div class="grid">
+
+                <figure class="effect-ruby animated fadeInLeft">
+                    <img src="img/11.jpg" alt="img11"/>
+                    <figcaption>
+                        <h2>Pre<span>Wake</span></h2>
+                        <p>A pre Wake app, using Rails, where friends can post what they will miss about you before you "kick the bucket".  <i class="fa fa-check-square fa-1x"><label class='status'>complete</label></i></p>
+                        <a href="https://pre-wake.herokuapp.com/">View more</a>
+                    </figcaption>
+                </figure>
+                <figure class="effect-milo animated fadeInUp">
+                    <img src="img/1.jpg" alt="img01"/>
+                    <figcaption>
+                        <h2>Mitchsta<span>Pic</span></h2>
+                        <p>My Tagstapic App refactored with new animations and new UI.  <i class="fa fa-square fa-1x"><label class='status'>incomplete</label></i></p>
+                        <a href="http://mitchellhollander.com/Mitch-sta-pic">View more</a>
+                    </figcaption>
+                </figure>
+                <figure class="effect-marley animated fadeInRight">
+                    <img src="img/3.jpg" alt="img03"/>
+                    <figcaption>
+                        <h2>Mitchsta<span>Chat</span></h2>
+                        <p>A chatroom application using the Firebase DB and API. It's also mobile friendly and has a different UI when using it on a mobile device.  <i class="fa fa-check-square fa-1x"><label class='status'>complete</label></i></p>
+                        <a href="http://mitchellhollander.com/Mitchsta-Chat">View more</a>
+                    </figcaption>
+                </figure>
+                <figure class="effect-sarah animated fadeInUp">
+                    <img src="img/4.jpg" alt="img04"/>
+                    <figcaption>
+                        <h2>Tagsta<span>Pic</span></h2>
+                        <p>A small side project that pulls in pictures from Instagram's API and creates a slide show.  <i class="fa fa-check-square fa-1x"><label class='status'>complete</label></i></p>
+                        <a href="http://tagstapic.herokuapp.com/">View more</a>
+                    </figcaption>
+                </figure>
+
+              </div>
+            </header>
+
+
+
+            <!-- FOOTER -->
+            <div id="footer_wrap" class="outer animated fadeIn">
+              <footer class="inner">
+                <img class='bg-divider-flipped' src='images/bg_divider.png'>
+                <p>Copyright © 2014 Mitchell Hollander |
+                <a class='githubFooterLink' href="https://github.com/MitchellSH/MitchellSH.github.io">Source Code</a> |
+                Published with <a class='githubFooterLink' href="http://pages.github.com">GitHub Pages</a></p>
+              </footer>
+            </div>
+          </div><!-- wrapper -->
+      </div><!-- /container -->
+      <nav class="outer-nav left vertical">
+        <a href="index.html" class="icon-home">Home</a>
+        <a href="what_i_know_page.html" class="icon-news">What I've Learned</a>
+        <a href="projects_page.html" class="icon-image">Projects</a>
+      </nav>
+    </div><!-- /perspective -->
+
     <!-- TOP NAV BAR -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <!-- <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars fa-2x"></i></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars fa-2x"></i></b></a> -->
               <!-- DROPDOWN UL -->
-              <ul class="dropdown-menu">
+              <!-- <ul class="dropdown-menu"> -->
 <!--                 <li class='animated slideInLeft'><a href="about_me_page.html">About Me</a></li>
                 <li class="divider"></li> -->
-                <li class='options menu animated fadeInDown'><a href="what_i_know_page.html">What I've Learned</a></li>
+                <!-- <li class='options menu animated fadeInDown'><a href="what_i_know_page.html">What I've Learned</a></li>
                 <li class="divider menu animated fadeInDown"></li>
-                <li class='options menu animated fadeInDown'><a href="projects_page.html">Projects</a></li>
+                <li class='options menu animated fadeInDown'><a href="projects_page.html">Projects</a></li> -->
                 <!-- <li class="divider menu animated fadeInDown"></li>
                 <li class='menu animated fadeInDown'><a href="artwork.html">Artwork</a></li> -->
 <!--                 <li class="divider"></li> -->
 <!--                 <li><a href="http://mitchellhollander.com/My-Blog/">My Blog</a></li> -->
-              </ul>
-            </li>
+              <!-- </ul> -->
+            <!-- </li> -->
             <!-- HOME BUTTON -->
             <!-- <li><a href="index.html"><i class="fa fa-home fa-2x"></i></a></li> -->
-            <li><a class='options mySmallLink' href="index.html"><img id='mySmallPic' src='images/me.jpeg'></a></li>
-          </ul>
+            <!-- <li><a class='options mySmallLink' href="index.html"><img id='mySmallPic' src='images/me.jpeg'></a></li> -->
+          <!-- </ul> -->
           <!-- RIGHT SIDE NAV -->
-          <ul class="nav navbar-nav navbar-right">
+          <!-- <ul class="nav navbar-nav navbar-right"> -->
             <!-- GITHUB LINK -->
-            <li><a href="https://github.com/MitchellSH"><i class="fa fa-github fa-2x"></i></a></li>
+            <!-- <li><a href="https://github.com/MitchellSH"><i class="fa fa-github fa-2x"></i></a></li> -->
             <!-- INSTAGRAM LINK -->
-            <li><a href="http://instagram.com/mitchell_hollander"><i class="fa fa-instagram fa-2x"></i></a></li>
+            <!-- <li><a href="http://instagram.com/mitchell_hollander"><i class="fa fa-instagram fa-2x"></i></a></li> -->
             <!-- TWITTER LINK -->
-            <li><a href="https://twitter.com/Mitch_Hollander"><i class="fa fa-twitter fa-2x"></i></a></li>
+            <!-- <li><a href="https://twitter.com/Mitch_Hollander"><i class="fa fa-twitter fa-2x"></i></a></li> -->
             <!-- GOOGLE+ LINK -->
-            <li><a href="https://plus.google.com/u/0/111891834390020142373/posts"><i class="fa fa-google-plus fa-2x"></i></a></li>
+            <!-- <li><a href="https://plus.google.com/u/0/111891834390020142373/posts"><i class="fa fa-google-plus fa-2x"></i></a></li> -->
             <!-- LINKEDIN LINK -->
-            <li><a href="https://www.linkedin.com/pub/mitchell-hollander/93/378/937"><i class="fa fa-linkedin fa-2x"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <header>
-      <img class='bg-divider animated fadeInDown content' src='images/bg_divider.png'>
-      <h1 class='animated fadeInDown content'>Projects</h1>
-
-      <div class="grid">
-
-        <figure class="effect-romeo animated fadeInLeft">
-            <img src="img/11.jpg" alt="img11"/>
-            <figcaption>
-                <h2>Pre <span>Wake</span></h2>
-                <p>A pre Wake app, using Rails, where friends can post what they will miss about you before you "kick the bucket".</p>
-                <a href="https://pre-wake.herokuapp.com/">View more</a>
-            </figcaption>
-        </figure>
-        <figure class="effect-romeo animated fadeInUp">
-            <img src="img/1.jpg" alt="img01"/>
-            <figcaption>
-                <h2>Mitchsta<span>Pic</span></h2>
-                <p>My Tagstapic App refactored with new animations and new UI.</p>
-                <a href="http://mitchellhollander.com/Mitch-sta-pic">View more</a>
-            </figcaption>
-        </figure>
-        <figure class="effect-romeo animated fadeInRight">
-            <img src="img/3.jpg" alt="img03"/>
-            <figcaption>
-                <h2>Mitchsta<span>Chat</span></h2>
-                <p>A chatroom application using the Firebase DB and API. It's also mobile friendly and has a different UI when using it on a mobile device.</p>
-                <a href="http://mitchellhollander.com/Mitchsta-Chat">View more</a>
-            </figcaption>
-        </figure>
-        <figure class="effect-romeo animated fadeInUp">
-            <img src="img/4.jpg" alt="img04"/>
-            <figcaption>
-                <h2>Tagsta<span>Pic</span></h2>
-                <p>A small side project that pulls in pictures from Instagram's API and creates a slide show.</p>
-                <a href="http://tagstapic.herokuapp.com/">View more</a>
-            </figcaption>
-        </figure>
-
-      </div>
-      <!-- <div class="list-group">
-        <a class="list-group-item" href="https://pre-wake.herokuapp.com/">
-          <h4 class="list-group-item-heading">Pre Wake</h4>
-          <p class="list-group-item-text">A pre Wake app, using Rails, where friends can post what they will miss about you before you "kick the bucket".</p>
-          <p class="list-group-item-text status">Complete</p>
-        </a>
-        <a class="list-group-item" href="http://mitchellhollander.com/Mitch-sta-pic">
-          <h4 class="list-group-item-heading">Mitchstapic</h4>
-          <p class="list-group-item-text">My Tagstapic App refactored with new animations and new UI.</p>
-          <p class="list-group-item-text status">In Progress</p>
-        </a>
-        <a class="list-group-item" href="http://mitchellhollander.com/Mitchsta-Chat">
-          <h4 class="list-group-item-heading">Mitchsta Chat</h4>
-          <p class="list-group-item-text">A chatroom application using the Firebase DB and API. It's also mobile friendly and has a different UI when using it on a mobile device.</p>
-          <p class="list-group-item-text status">Complete</p>
-        </a>
-        <a class="list-group-item" href="http://tagstapic.herokuapp.com/">
-          <h4 class="list-group-item-heading">Tagstapic</h4>
-          <p class="list-group-item-text">A small side project that pulls in pictures from Instagram's API and creates a slide show.</p>
-          <p class="list-group-item-text status">Complete</p>
-        </a>
-
-      </div> -->
-    </header>
+            <!-- <li><a href="https://www.linkedin.com/pub/mitchell-hollander/93/378/937"><i class="fa fa-linkedin fa-2x"></i></a></li> -->
+          <!-- </ul> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </nav> -->
 
 
-
-    <!-- FOOTER -->
-    <div id="footer_wrap" class="outer animated fadeIn">
-      <footer class="inner">
-        <img class='bg-divider-flipped' src='images/bg_divider.png'>
-        <p>Copyright © 2014 Mitchell Hollander |
-        <a class='githubFooterLink' href="https://github.com/MitchellSH/MitchellSH.github.io">Source Code</a> |
-        Published with <a class='githubFooterLink' href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/menu.js"></script>
     <script src="js/lodash.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>

@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
 	font-weight: normal;
 	font-style: normal;
 	font-family: 'feathericons';
@@ -7,7 +7,7 @@
 		url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),
 		url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),
 		url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
-}
+}*/
 
 .grid {
 	overflow: hidden;
@@ -26,14 +26,15 @@
 	overflow: hidden;
 	/*margin: -0.135em;*/
 	margin: 3px;
-	width: 25%;
-	height: 320px;
+	width: 22%;
+	height: 282px;
 	/*-- Added Border --*/
-	border-radius: 250px;
-	border: 1px solid #313131;
+	/*border-radius: 250px;*/
+	/*border: 1px solid #313131;*/
 	/*width: 33.333%;
 	height: 400px;*/
-	background: #3085a3;
+	/*background: #3085a3;*/
+	background: #6600ff;
 	text-align: center;
 	cursor: pointer;
 }
@@ -84,7 +85,7 @@
 
 	font-weight: 300;
 	/*-- Added text-shadow --*/
-	text-shadow: 0px 0px 10px #313131;
+	/*text-shadow: 0px 0px 10px #313131;*/
 }
 
 .grid figure h2 span {
@@ -101,7 +102,7 @@
 	/*font-size: 68.5%;*/
 	font-size: 58.5%;
 	/*-- Added text-shadow --*/
-	text-shadow: 0px 0px 10px #313131;
+	/*text-shadow: 0px 0px 10px #313131;*/
 }
 
 /* Individual effects */

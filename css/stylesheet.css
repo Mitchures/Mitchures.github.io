@@ -1,5 +1,16 @@
 /*---------- GLOBAL CSS START ----------*/
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+/*@import url(http://fonts.googleapis.com/css?family=Lato:100);*/
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url(../fonts/Lato-Light.ttf);
+
+}
+@font-face {
+  font-family: 'Lato-Hairline';
+  src: url(../fonts/Lato-Hairline.ttf);
+
+}
 
 
 footer{
@@ -24,6 +35,7 @@ h4{
   color: grey;
 }
 
+
 p{
   padding-left: 250px;
   padding-right: 250px;
@@ -31,7 +43,7 @@ p{
 }
 
 header{
-  margin-top: 80px;
+  /*margin-top: 80px;*/
 }
 
 i{
@@ -51,6 +63,13 @@ i:active{
   color: black !important;
 }
 
+#showMenu{
+  margin-top: 10px !important;
+}
+.menuShow{
+  margin-top: 10px !important;
+}
+
 #body{
   /*font-family: 'Lato', sans-serif !important;
   background-image: url(../images/bg-custom.png) !important;
@@ -60,10 +79,11 @@ i:active{
   /*background-position: center !important;*/
 }
 body{
-  background-image: url(../images/bg-custom.png) !important;
+  /*background-image: url(../images/bg-custom.png) !important;
   background-size: 100% !important;
-  background-repeat: no-repeat !important;
-  font-family: 'Lato', sans-serif !important;
+  background-repeat: no-repeat !important;*/
+  font-family: 'Lato-Hairline' !important;
+  /*font-family: 'Lato', sans-serif !important;*/
   /*background: #F3F1F2 !important;*/
 }
 
@@ -631,7 +651,16 @@ ul.dropdown-menu{
 
 /*----- PROJECTS PAGE.HTML START  -----*/
 
+
+#project-title{
+  font-size: 100px !important;
+}
+
+
 /*-- PROJECTS LIST CSS START --*/
+
+
+
 .list-group{
   text-align: center;
   position: relative;
@@ -666,6 +695,22 @@ ul.dropdown-menu{
 }
 
 .list-group-item-text.status:hover{
+}
+
+.status{
+  color: white !important;
+  /*border-left: 13px solid #6600ff !important;*/
+  /*background: #6600ff !important;*/
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+  /*border-radius: 10px !important;*/
+}
+
+.fa-check-square{
+  color: white !important;
+}
+.fa-square{
+  color: grey !important;
 }
 
 
