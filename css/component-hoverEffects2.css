@@ -1123,7 +1123,11 @@ figure.effect-chico:hover p {
 
 @media screen and (max-width: 69.5em) {
 	.grid figure {
-		width: 50%;
+		width: 200px;
+		height: 200px;
+	}
+	.grid figure h2{
+		font-size: 15px;
 	}
 
 	.grid figure figcaption {
