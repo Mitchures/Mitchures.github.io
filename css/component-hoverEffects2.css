@@ -25,6 +25,20 @@
 	border: 3px solid white;
 }
 
+.overlay-menu figure{
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	width: 220px;
+	height: 220px;
+	background: transparent;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 0%;
+	border: 3px solid white;
+}
+
 .grid figure img {
 	position: relative;
 	display: block;
@@ -71,6 +85,12 @@
 
 	font-weight: 300;
 	font-size: 30px;
+}
+.overlay-menu figure h2 {
+	word-spacing: -0.15em;
+
+	font-weight: 300;
+	font-size: 20px;
 }
 
 .grid figure h2 span {
@@ -538,7 +558,7 @@ figure.effect-layla:hover img {
 /*---------------*/
 
 figure.effect-honey {
-	background: #4a3753;
+	background: transparent;
 }
 
 figure.effect-honey img {

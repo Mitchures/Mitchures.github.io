@@ -25,6 +25,37 @@
 	border: 3px solid white;
 }
 
+overlay-menu{
+	overflow: hidden;
+	/*margin: 0;*/
+	padding: 0px;
+	/*width: 100%;*/
+	list-style: none;
+	text-align: center;
+}
+
+.overlay-menu figure{
+	/*margin: 1px;*/
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	width: 220px;
+	height: 220px;
+	background: transparent;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 0%;
+	border: 3px solid white;
+}
+
+.overlay-menu figure h2 {
+	word-spacing: -0.15em;
+
+	font-weight: 300;
+	font-size: 20px;
+}
+
 .grid figure img {
 	position: relative;
 	display: block;
