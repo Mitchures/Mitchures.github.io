@@ -19,10 +19,27 @@ footer{
 
 
 h1,h2{
-  padding: 10px;
-  text-align: center;
+  /*padding: 10px;*/
+  /*text-align: center;*/
   /*border-bottom: 1px solid lightgrey !important;*/
   /*text-shadow: 0px 0px 5px white !important;*/
+}
+
+
+#project-title{
+  padding: 10px;
+  text-align: center;
+}
+.learned-titles{
+  padding: 10px;
+  text-align: center;
+}
+
+.cbp-so-scroller h2{
+  color: white !important;
+}
+.cbp-so-scroller p{
+  color: white !important;
 }
 
 .intro{
@@ -42,7 +59,12 @@ h4{
 }
 
 
-p{
+footer p{
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+}
+.whatIKnowP{
   padding-left: 250px;
   padding-right: 250px;
   text-align: center;
@@ -61,6 +83,10 @@ i{
 }
 i.menuShow{
   /*color: #009996 !important;*/
+  color: white !important;
+}
+
+i.projectsI{
   color: #313131 !important;
 }
 
@@ -94,6 +120,8 @@ i:active{
 }
 
 #body{
+  background: #EB4646 !important;
+  /*background: linear-gradient(#EB4646, #FF006A) !important;*/
   /*font-family: 'Lato', sans-serif !important;
   background-image: url(../images/bg-custom.png) !important;
   background-size: 100% 100% !important;
@@ -101,6 +129,7 @@ i:active{
   /*background-attachment: fixed !important;*/
   /*background-position: center !important;*/
 }
+
 body{
   /*background-image: url(../images/bg-custom.png) !important;
   background-size: 100% !important;
@@ -142,7 +171,7 @@ body{
 }
 
 .githubFooterLink{
-  color: #6600ff;
+  color: #B8B6B4;
 
 }
 
@@ -253,7 +282,10 @@ body{
 }
 
 .bioLinks{
-  color: #6600ff;
+  color: #B8B6B4;
+}
+.bioLinks:hover{
+  text-decoration: none;
 }
 
 ul.dropdown-menu a{
@@ -319,14 +351,14 @@ ul.dropdown-menu{
 
 .myPic2{
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   position: relative;
-  bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 130px;
-  border: 1px solid #313131;
+  margin-top: 80px;
+  margin-right: 20%;
+  /*margin-right: auto;*/
+  border-radius: 200px;
+  border: 3px solid white;
 }
 
 

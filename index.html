@@ -19,12 +19,13 @@
     <!-- BOOTSTRAP -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- CODEDROP CSS ANIMATIONS -->
-    <!-- <link href="css/component-menu.css" rel="stylesheet"> -->
     <link href="css/overlay-style1.css" rel="stylesheet">
-    <link href="css/component-hoverEffects.css" rel="stylesheet">
+    <link href="css/component-hoverEffects2.css" rel="stylesheet">
+    <link href="css/scroller.css" rel="stylesheet">
 
     <!-- MODERNIZR SCRIPT -->
     <script src="js/modernizr.js"></script>
+    <script src="js/modernizr.custom.25376.js"></script>
 
     <title>Mitchell Hollander</title>
   </head>
@@ -33,43 +34,107 @@
 
     <a id="trigger-overlay" href='#'><i class="fa fa-bars fa-3x menuShow animated fadeInDown"></i></a>
     <div class="container home">
-      <div id="header_wrap" class="outer">
-        <header class="inner">
-          <section id='sec-1'>
-            <img class='myPic2 animated fadeInDown content' src='images/me.jpeg'>
-            <h1 class='intro animated fadeInUp content'>Hello There! I'm Mitchell Hollander</h1>
-          </section>
-          <section id='sec-2'>
-            <p class='aboutMeP animated fadeInUp content'>I am a Junior Web Developer and also an Artist. Technology and Art have always been my passion.
-              I enjoy being able to build things from scratch and inspiration, in order to show people what I can do and create. I am also
-              a little obsessed with CSS and I enjoy coding it. I also love Sushi.
-            </p>
-          </section>
-          <section id='sec-3'>
-            <p class='aboutMeP animated fadeInUp content'>I'm currently going to school at <a class='bioLinks' href='http://nashvillesoftwareschool.com/'>NSS(Nashville Software School)</a> and am enjoying it quite dearly.
-              You can checkout what I've been learning <a class='bioLinks' href="what_i_know_page.html">here</a> and also my  <a class='bioLinks' href="projects_page.html">projects</a> that I have been working on. Before I attended the school I knew nothing at all about Web Development, but after a few months
-              of learning, I'm able to type this paragragh on a site I created for myself from scratch. I encourage anyone who is looking for a great learning experience or is
-              looking to know more about Programming to go and apply to the school. Best 6 months of learning ever!
-            </p>
-          </section>
-          <section id='sec-4'>
-            <p class='aboutMeP animated fadeInUp content'>I paint, I draw, I design, I code, and I love it! You can checkout all my social media in the top right corner, and for those of you
-              looking to hire me, here's <a class='bioLinks' href="downloads/mitchell's-resume.pdf" download='mitchells-resume.pdf'>my resumé</a> ;)
-            </p>
-          </section>
-          <section id='sec-5'>
-            <p class='aboutMeP animated fadeInUp content'>Artwork Page Coming Soon!</p>
-          </section>
-        </header>
-        <div id="footer_wrap" class="outer animated fadeInUp content"></div>
+
+      <div id="cbp-so-scroller" class="cbp-so-scroller">
+        <section class="cbp-so-section">
+            <article class="cbp-so-side cbp-so-side-left animated fadeInDown content">
+                <h2>Konnichiwa! Thats Japanese for hello!</h2>
+            </article>
+            <figure class="cbp-so-side cbp-so-side-right">
+                <img class='animated fadeInDown content' src="http://fc00.deviantart.net/fs71/f/2012/176/a/0/chibi_godzilla_____by_ravenmikako-d54uhu4.png" alt="img01">
+            </figure>
+        </section>
+        <section class="cbp-so-section">
+            <figure class="cbp-so-side cbp-so-side-left">
+                <!-- <img src="http://fc00.deviantart.net/fs71/f/2012/176/a/0/chibi_godzilla_____by_ravenmikako-d54uhu4.png" alt="img01"> -->
+                <img class='myPic2' src='images/me.jpeg' alt="img01">
+            </figure>
+            <article class="cbp-so-side cbp-so-side-right">
+                <h2>I'm Mitchell Hollander</h2>
+                <p>I am a Junior Web Developer and also an Artist. Technology and Art have always been my passion.
+                  I enjoy being able to build things from scratch and inspiration, in order to show people what I can do and create. I am also
+                  a little obsessed with CSS and I enjoy coding it.</p>
+            </article>
+        </section>
+        <section class="cbp-so-section">
+            <article class="cbp-so-side cbp-so-side-left">
+                <h2>I also love Sushi.</h2>
+            </article>
+            <figure class="cbp-so-side cbp-so-side-right">
+                <img src="http://coms106-nancypham.wikispaces.com/file/view/sushi.png/219731490/sushi.png" alt="img01">
+            </figure>
+        </section>
+        <section class="cbp-so-section">
+            <figure class="cbp-so-side cbp-so-side-left">
+                <a href='http://nashvillesoftwareschool.com/'><img src='http://nashvillesoftwareschool.com/wp-content/themes/nashville_software_school/images/carousel2.png' alt="img01"></a>
+            </figure>
+            <article class="cbp-so-side cbp-so-side-right">
+                <p>I'm currently going to school at <a class='bioLinks' href='http://nashvillesoftwareschool.com/'>NSS(Nashville Software School)</a> and am enjoying it quite dearly.
+                  You can checkout what I've been learning <a class='bioLinks' href="what_i_know_page.html">here</a>. Before I attended the school I knew nothing at all about Web Development, but after a few months
+                  of learning, I'm able to type this paragragh on a site I created for myself from scratch.</p>
+            </article>
+        </section>
+        <section class="cbp-so-section">
+            <article class="cbp-so-side cbp-so-side-left">
+                <h2>The Works</h2>
+                <p>Checkout my projects and see what I've been working on!</p>
+            </article>
+            <figure class="cbp-so-side cbp-so-side-right">
+              <div class='grid'>
+                  <figure class="effect-romeo">
+                      <!-- <img src="img/15.jpg" alt="img15"/> -->
+                      <figcaption>
+                          <h2>My<span>Projects</span></h2>
+                          <a href="projects_page.html">View more</a>
+                      </figcaption>
+                  </figure>
+              </div>
+            </figure>
+        </section>
+        <section class="cbp-so-section">
+            <figure class="cbp-so-side cbp-so-side-left">
+              <div class='grid'>
+                  <figure class="effect-romeo">
+                      <!-- <img src="img/14.jpg" alt="img14"/> -->
+                      <figcaption>
+                          <h2>My<span>Resumé</span></h2>
+                          <a href="downloads/mitchell's-resume.pdf" download='mitchells-resume.pdf'>View more</a>
+                      </figcaption>
+                  </figure>
+              </div>
+            </figure>
+            <article class="cbp-so-side cbp-so-side-right">
+                <h2>Hire Me!</h2>
+                <p>Here is my resumé for those of you looking to hire me.</p>
+            </article>
+        </section>
+        <section class="cbp-so-section">
+            <article class="cbp-so-side cbp-so-side-left">
+                <h2>I paint, I draw, I design, I code, and I love it!
+                </h2>
+            </article>
+            <figure class="cbp-so-side cbp-so-side-right">
+                <img src="http://www.clipartbest.com/cliparts/7ia/KRj/7iaKRjajT.png" width='80%' height='80%' alt="img01">
+            </figure>
+        </section>
+        <section class="cbp-so-section">
+            <figure class="cbp-so-side cbp-so-side-left">
+                <img src='http://static.squarespace.com/static/51f16cabe4b02d4393f44817/t/528a573fe4b0b97f9ac7c29a/1384798038904/art-icon.png' width='80%' height='80%' alt="img01">
+            </figure>
+            <article class="cbp-so-side cbp-so-side-right">
+                <h2>Artwork Page Coming Soon!</h2>
+            </article>
+        </section>
+        <section>
           <footer class="inner">
             <img class='bg-divider-flipped' src='images/bg_divider.png'>
             <p>Copyright © 2014 Mitchell Hollander |
             <a class='githubFooterLink' href="https://github.com/MitchellSH/MitchellSH.github.io">Source Code</a> |
             Published with <a class='githubFooterLink' href="http://pages.github.com">GitHub Pages</a></p>
           </footer>
-        </div>
+        </section>
       </div>
+    </div>
     <div class="overlay overlay-hugeinc">
       <button type="button" class="overlay-close">Close</button>
       <nav>
@@ -87,26 +152,21 @@
       </nav>
     </div>
 
-      <!-- <nav class="outer-nav left vertical">
-        <a href="https://github.com/MitchellSH"><i class="fa fa-github fa-1x"></i>Github</a>
-        <a href="http://instagram.com/mitchell_hollander"><i class="fa fa-instagram fa-1x"></i>Instagram</a>
-        <a href="https://twitter.com/Mitch_Hollander"><i class="fa fa-twitter fa-1x"></i>Twitter</a>
-        <a href="https://plus.google.com/u/0/111891834390020142373/posts"><i class="fa fa-google-plus fa-1x"></i>Google+</a>
-        <a href="https://www.linkedin.com/pub/mitchell-hollander/93/378/937"><i class="fa fa-linkedin fa-1x"></i>Linked In</a>
-      </nav>
-    </div>  -->
 
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/classie.js"></script>
-    <script src="js/snap.svg-min.js"></script>
+    <script src="js/cbpScroller.js"></script>
     <script src="js/demo1.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/lodash.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
+    <script>
+			new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+		</script>
 
   </body>
 </html>
