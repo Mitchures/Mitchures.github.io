@@ -57,7 +57,7 @@ h4{
 /*-- HEADERS CSS END --*/
 
 #trigger-overlay{
-  position: fixed !important;
+  /*position: fixed !important;*/
   /*margin-top: 10px !important;*/
   /*padding: 5px !important;*/
   margin-left: 15px !important;
