@@ -90,6 +90,15 @@ i.projectsI{
   color: #313131 !important;
 }
 
+i.fa-angle-down{
+  margin-left: 50% !important;
+  margin-right: 50% !important;
+  position: relative !important;
+  bottom: 50px !important;
+}
+i.fa-angle-down:hover{
+  color: white !important;
+}
 
 
 i:hover{
