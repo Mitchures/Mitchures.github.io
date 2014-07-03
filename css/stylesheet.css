@@ -56,6 +56,13 @@ h4{
 
 /*-- HEADERS CSS END --*/
 
+#trigger-overlay{
+  position: fixed !important;
+  /*margin-top: 10px !important;*/
+  /*padding: 5px !important;*/
+  margin-left: 15px !important;
+}
+
 i{
   color: white !important;
   margin-right: 10px !important;
@@ -72,13 +79,8 @@ i:active{
   color: black !important;
 }
 
-#showMenu{
-  margin-top: 15px !important;
-  padding: 5px !important;
-}
-
 .menuShow{
-  margin-top: 15px !important;
+  margin-top: 10px !important;
   padding: 5px !important;
 }
 
@@ -195,11 +197,6 @@ body{
   background: #EB4646 !important;
 }
 
-#trigger-overlay{
-  margin-top: 15px !important;
-  padding: 5px !important;
-  margin-left: 15px !important;
-}
 
 i.fa-angle-down{
   margin-left: 50% !important;
