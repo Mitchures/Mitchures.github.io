@@ -284,16 +284,7 @@ i.menuShow:active{
   /*background: #2ED1C0 !important;*/
 }
 
-#learned-body h1{
-  font-size: 90px !important;
-  color: white !important;
-  border-bottom: 3px solid white !important;
-}
-#learned-body h2{
-  font-size: 90px !important;
-  color: white !important;
-  border-bottom: 3px solid white !important;
-}
+
 #learned-body p{
   color: white !important;
 }
@@ -310,6 +301,9 @@ i.menuShow:active{
 .learned-titles{
   padding: 10px;
   text-align: center;
+  font-size: 90px !important;
+  color: white !important;
+  border-bottom: 3px solid white !important;
 }
 
 /*-- LANGUAGES LIST CSS START --*/
