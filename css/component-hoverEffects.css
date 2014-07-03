@@ -1,13 +1,4 @@
-/*@font-face {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'feathericons';
-	src:url('../fonts/feathericons/feathericons.eot?-8is7zf');
-	src:url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'),
-		url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),
-		url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),
-		url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
-}*/
+
 
 .grid {
 	overflow: hidden;
@@ -21,23 +12,27 @@
 /* Common style */
 .grid figure {
 	position: relative;
-	z-index: 1;
+	/*z-index: 1;*/
 	display: inline-block;
 	overflow: hidden;
 	/*margin: -0.135em;*/
 	margin: 1px;
-	width: 22%;
-	height: 282px;
+	width: 350px;
+	height: 350px;
 	/*-- Added Border --*/
-	/*border-radius: 250px;*/
-	/*border: 1px solid #313131;*/
+	/*border-radius: 100%;*/
+	border: 3px solid white;
 	/*width: 33.333%;
 	height: 400px;*/
 	/*background: #3085a3;*/
-	background: #6600ff;
+	/*background: #6600ff;*/
 	text-align: center;
 	cursor: pointer;
 }
+
+/*.grid figure:hover{
+	border: 3px solid grey;
+}*/
 
 .grid figure img {
 	position: relative;
@@ -99,8 +94,8 @@
 
 .grid figure p {
 	letter-spacing: 1px;
-	/*font-size: 68.5%;*/
-	font-size: 58.5%;
+	font-size: 68.5%;
+	/*font-size: 58.5%;*/
 	/*-- Added text-shadow --*/
 	/*text-shadow: 0px 0px 10px #313131;*/
 }
@@ -293,7 +288,7 @@ figure.effect-roxy:hover p {
 /*---------------*/
 
 figure.effect-bubba {
-	background: #66D9EF;
+	/*background: #66D9EF;*/
 }
 
 figure.effect-bubba img {
@@ -449,7 +444,7 @@ figure.effect-romeo:hover p {
 /*---------------*/
 
 figure.effect-layla {
-	background: #18a367;
+	/*background: #18a367;*/
 }
 
 figure.effect-layla img {
@@ -752,7 +747,7 @@ figure.effect-marley:hover p {
 /*---------------*/
 
 figure.effect-ruby {
-	background-color: #17819c;
+	/*background-color: #17819c;*/
 }
 
 figure.effect-ruby img {
@@ -804,7 +799,7 @@ figure.effect-ruby:hover p {
 /*---------------*/
 
 figure.effect-milo {
-	background: #2e5d5a;
+	/*background: #2e5d5a;*/
 }
 
 figure.effect-milo img {
@@ -916,7 +911,7 @@ figure.effect-dexter:hover p {
 /*---------------*/
 
 figure.effect-sarah {
-	background: #42b078;
+	/*background: #42b078;*/
 }
 
 figure.effect-sarah img {

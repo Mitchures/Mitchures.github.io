@@ -33,7 +33,8 @@ footer p{
 }
 
 #footer_wrap{
-  margin-top: auto;
+  border-top: 3px solid white !important;
+  margin-top: 10% !important;
   margin-bottom: auto;
   padding: 10px;
 }
@@ -281,6 +282,33 @@ i.menuShow:active{
 
 /*----- WHAT I KNOW.HTML PAGE START  -----*/
 
+#learned-body{
+  background: #2ED1C0 !important;
+}
+
+#learned-body h1{
+  font-size: 90px !important;
+  color: white !important;
+  border-bottom: 3px solid white !important;
+}
+#learned-body h2{
+  font-size: 90px !important;
+  color: white !important;
+  border-bottom: 3px solid white !important;
+}
+#learned-body p{
+  color: white !important;
+}
+.whatIKnowP{
+  margin-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  font-size: 20px;
+  color: white !important;
+}
+
+
 .learned-titles{
   padding: 10px;
   text-align: center;
@@ -296,24 +324,18 @@ i.menuShow:active{
 /*  color: #6600ff;*/
 }
 .languages.col-sm-3 a{
+  font-size: 20px !important;
   list-style-type: none;
   text-align: center;
   position: relative;
-  color: #6600ff;
+  color: white;
 }
 .languages.col-sm-3 a:hover{
   list-style-type: none;
   text-align: center;
   position: relative;
   color: grey;
-}
-
-.whatIKnowP{
-  font-size: 15px;
-  margin-bottom: 30px;
-  padding-left: 250px;
-  padding-right: 250px;
-  text-align: center;
+  text-decoration: none;
 }
 
 
@@ -333,14 +355,33 @@ i.menuShow:active{
 
 /*----- PROJECTS PAGE.HTML START  -----*/
 
-i.projectsI{
-  color: #313131 !important;
+#projects-body{
+  background: #309FFF !important;
+  /*background: #EB4646 !important;*/
+}
+
+#projects-body h1{
+  color: white !important;
+  border-bottom: 3px solid white !important;
+}
+#projects-body p{
+  color: white !important;
 }
 
 #project-title{
   font-size: 100px !important;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
+}
+
+.projects-icon{
+  color: white !important;
+}
+.projects-icon:hover{
+  color: white !important;
+}
+.projects-icon:active{
+  color: white !important;
 }
 
 .status{
