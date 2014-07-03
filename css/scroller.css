@@ -61,18 +61,21 @@
 .cbp-so-side-left {
 	text-align: right;
 }
+article.cbp-so-side-right {
+	/*border-right: 2px solid lightgrey;*/
+	/*border-left: 2px solid lightgrey;*/
+}
+article.cbp-so-side-left {
+	/*border-left: 2px solid lightgrey;*/
+	/*border-right: 2px solid lightgrey;*/
+}
 
 .cbp-so-side-right img {
 	float: left;
 }
-.cbp-so-side-right i {
-	float: left;
-}
+
 
 .cbp-so-side-left img {
-	float: right;
-}
-.cbp-so-side-left i {
 	float: right;
 }
 
