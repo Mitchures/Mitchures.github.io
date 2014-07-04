@@ -5,8 +5,9 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(148, 148, 148, 0.9);
+	/*background: rgba(148, 148, 148, 0.9);*/
 	/*background: rgba(102, 0, 255, 0.9);*/
+	background: rgba(46, 209, 192, 0.9);
 }
 
 /* Overlay closing cross */
