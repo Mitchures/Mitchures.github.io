@@ -1,11 +1,11 @@
 @-webkit-keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
+	from {
+		-webkit-filter: hue-rotate(0deg);
+	}
 
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-  }
+	to {
+		-webkit-filter: hue-rotate(-360deg);
+	}
 }
 
 
@@ -64,9 +64,12 @@
 	height: 20%;
 	height: calc(100% / 5);
 	min-height: 54px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
 .overlay ul li a {
+	font-size: 54px;
 	font-weight: 300;
 	display: block;
 	color: #fff;
@@ -76,54 +79,63 @@
 
 .overlay ul li a:hover,
 .overlay ul li a:focus {
-	color: #e3fcb1;
-	text-decoration: none;
+	color: #f0f0f0;
 }
 
 /* Effects */
-.overlay-hugeinc {
-	opacity: 0;
+.overlay-door {
 	visibility: hidden;
-	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
-	transition: opacity 0.5s, visibility 0s 0.5s;
+	width: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: width 0.5s 0.3s, visibility 0s 0.8s;
+	transition: width 0.5s 0.3s, visibility 0s 0.8s;
 }
 
-.overlay-hugeinc.open {
-	opacity: 1;
+.overlay-door.open {
 	visibility: visible;
-	-webkit-transition: opacity 0.5s;
-	transition: opacity 0.5s;
+	width: 100%;
+	-webkit-transition: width 0.5s;
+	transition: width 0.5s;
 }
 
-.overlay-hugeinc nav {
-	-webkit-perspective: 1200px;
-	perspective: 1200px;
+.overlay-door nav {
+	/*position: absolute;*/
+	left: 50%;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
 }
 
-.overlay-hugeinc nav .overlay-menu {
-	opacity: 0.4;
-	-webkit-transform: translateY(-25%) rotateX(35deg);
-	transform: translateY(-25%) rotateX(35deg);
-	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-	transition: transform 0.5s, opacity 0.5s;
+.overlay-door nav,
+.overlay-door .overlay-close {
+	opacity: 0;
+	-webkit-transition: opacity 0.3s 0.5s;
+	transition: opacity 0.3s 0.5s;
 }
 
-.overlay-hugeinc.open nav .overlay-menu {
+.overlay-door.open nav,
+.overlay-door.open .overlay-close {
 	opacity: 1;
-	-webkit-transform: rotateX(0deg);
-	transform: rotateX(0deg);
+	-webkit-transition-delay: 0.5s;
+	transition-delay: 0.5s;
 }
 
-.overlay-hugeinc.close nav .overlay-menu {
-	-webkit-transform: translateY(25%) rotateX(-35deg);
-	transform: translateY(25%) rotateX(-35deg);
+.overlay-door.close nav,
+.overlay-door.close .overlay-close {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+
 }
 
 @media (max-width: 700px) {
 	.overlay nav figure{
 		width: 30%;
 		height: 120px;
-		font-size: 34px;
+	}
+
+	.overlay nav figure h2{
+		font-size: 15px;
 	}
 	.overlay .overlay-menu {
 		min-height: 34px;

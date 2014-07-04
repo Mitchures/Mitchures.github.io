@@ -1,11 +1,11 @@
 @-webkit-keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
+	from {
+		-webkit-filter: hue-rotate(0deg);
+	}
 
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-  }
+	to {
+		-webkit-filter: hue-rotate(-360deg);
+	}
 }
 
 
@@ -81,42 +81,35 @@
 }
 
 /* Effects */
-.overlay-hugeinc {
-	opacity: 0;
+body {
+	background: #ddd;
+}
+
+.container {
+	background: #EB4646;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.container.overlay-open {
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.overlay-contentscale {
 	visibility: hidden;
-	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
-	transition: opacity 0.5s, visibility 0s 0.5s;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transition: -webkit-transform 0.5s, visibility 0s 0.5s;
+	transition: transform 0.5s, visibility 0s 0.5s;
 }
 
-.overlay-hugeinc.open {
-	opacity: 1;
+.overlay-contentscale.open {
 	visibility: visible;
-	-webkit-transition: opacity 0.5s;
-	transition: opacity 0.5s;
-}
-
-.overlay-hugeinc nav {
-	-webkit-perspective: 1200px;
-	perspective: 1200px;
-}
-
-.overlay-hugeinc nav .overlay-menu {
-	opacity: 0.4;
-	-webkit-transform: translateY(-25%) rotateX(35deg);
-	transform: translateY(-25%) rotateX(35deg);
-	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-	transition: transform 0.5s, opacity 0.5s;
-}
-
-.overlay-hugeinc.open nav .overlay-menu {
-	opacity: 1;
-	-webkit-transform: rotateX(0deg);
-	transform: rotateX(0deg);
-}
-
-.overlay-hugeinc.close nav .overlay-menu {
-	-webkit-transform: translateY(25%) rotateX(-35deg);
-	transform: translateY(25%) rotateX(-35deg);
+	-webkit-transform: translateY(0%);
+	transform: translateY(0%);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
 }
 
 @media (max-width: 700px) {
@@ -125,6 +118,17 @@
 		height: 120px;
 		font-size: 34px;
 	}
+
+	.myPic{
+		width: 70%;
+		height: 70%;
+	}
+
+	.homeGrid{
+		width: 60%;
+		height: 60%;
+	}
+
 	.overlay .overlay-menu {
 		min-height: 34px;
 	}
