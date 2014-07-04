@@ -112,7 +112,7 @@ body {
 	transition: transform 0.5s;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 640px) {
 	.overlay nav figure{
 		width: 30%;
 		height: 120px;
@@ -124,12 +124,13 @@ body {
 		height: 70%;
 	}
 
-	.homeGrid{
-		width: 60%;
-		height: 60%;
-	}
 
 	.overlay .overlay-menu {
 		min-height: 34px;
+	}
+
+	.homeGrid{
+		width: 75%;
+		height: 75%;
 	}
 }
