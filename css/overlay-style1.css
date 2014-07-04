@@ -1,3 +1,15 @@
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+
+
 /* Overlay style */
 .overlay {
 	position: fixed;
@@ -8,6 +20,7 @@
 	/*background: rgba(148, 148, 148, 0.9);*/
 	/*background: rgba(102, 0, 255, 0.9);*/
 	background: rgba(46, 209, 192, 0.9);
+	-webkit-animation: hue 60s infinite linear !important;
 }
 
 /* Overlay closing cross */
