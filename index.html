@@ -14,7 +14,8 @@
     <!-- ANIMATE -->
     <link href="css/animate.min.css" rel="stylesheet">
     <!-- FONT AWSOME -->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <!-- BOOTSTRAP -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -37,10 +38,8 @@
 
       <div id="cbp-so-scroller" class="cbp-so-scroller">
         <section class="cbp-so-section">
-            <article class="cbp-so-side cbp-so-side-left animated fadeInDown content">
-                <h1>こんにちは!</h1>
-                <h2>Konnichiwa!</h2>
-                <p>Thats Japanese for hello!</p>
+            <article id='greeting' class="cbp-so-side cbp-so-side-left animated fadeInDown content">
+              <!-- h2 generated greeting here -->
             </article>
             <figure id='image-target' class="cbp-so-side cbp-so-side-right">
               <!-- img generated here -->
@@ -55,7 +54,6 @@
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
                 <h2>I'm Mitchell Hollander</h2>
-                <h1>私はミッチェルオランダよ</h1>
                 <p>I am a Junior Web Developer and also an Artist. Technology and Art have always been my passion.
                   I enjoy being able to build things from scratch and inspiration, in order to show people what I can do and create. I am also
                   a little obsessed with CSS, as you may tell.</p>
@@ -63,8 +61,7 @@
         </section>
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h1>あなたが見ることができるように私も、寿司や日本何でも大好き。</h1>
-                <p>I also love Sushi and anything Japanese, as you can see.</p>
+                <p>I also love Sushi and anything really Japanese.</p>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
                 <img src="http://coms106-nancypham.wikispaces.com/file/view/sushi.png/219731490/sushi.png" alt="img01">
@@ -82,8 +79,7 @@
         </section>
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h1>私の作品</h1>
-                <h2>My Works</h2>
+                <h2>My Works <i class="fa fa-folder-open-o fa-1x projects-icon"></i></h2>
                 <p>Checkout my projects and see what I've been working on!</p>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
@@ -91,7 +87,6 @@
                   <figure class="effect-romeo">
                       <figcaption>
                           <h2>My<span>Projects</span></h2>
-                          <p>マイプロジェクト</p>
                           <a href="projects_page.html">View more</a>
                       </figcaption>
                   </figure>
@@ -104,21 +99,19 @@
                   <figure class="effect-romeo">
                       <figcaption>
                           <h2>My<span>Resumé</span></h2>
-                          <p>私の履歴書</p>
+                          <p> Download <i class="fa fa-file-pdf-o fa-1x projects-icon"></i></p>
                           <a href="downloads/mitchell's-resume.pdf" download='mitchells-resume.pdf'>View more</a>
                       </figcaption>
                   </figure>
               </div>
             </figure>
             <article class="cbp-so-side cbp-so-side-right">
-                <h1>私を雇う！</h1>
                 <h2>Hire Me!</h2>
                 <p>Here is my resumé for those of you looking to hire me.</p>
             </article>
         </section>
         <section class="cbp-so-section">
             <article class="cbp-so-side cbp-so-side-left">
-                <h1>私は、私のコードを設計、私が描く、ペイント、そして私はそれを愛する！</h1>
                 <h2>I paint, I draw, I design, I code, and I love it!</h2>
             </article>
             <figure class="cbp-so-side cbp-so-side-right">
@@ -182,7 +175,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpScroller.js"></script>
-    <script src="js/demo1.js"></script>
+    <script src="js/overlay-menu.js"></script>
     <script src="js/lodash.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
