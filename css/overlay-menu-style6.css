@@ -128,10 +128,10 @@
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px){
 	.overlay nav figure{
-		width: 30%;
-		height: 120px;
+		width: 194px;
+		height: 194px;
 	}
 
 	.overlay nav figure h2{
@@ -140,4 +140,36 @@
 	.overlay .overlay-menu {
 		min-height: 34px;
 	}
+
+
+}
+@media (max-width: 1050px){
+	.overlay nav figure{
+		width: 194px;
+		height: 194px;
+	}
+
+	.overlay nav figure h2{
+		font-size: 15px;
+	}
+	.overlay .overlay-menu {
+		min-height: 34px;
+	}
+
+
+}
+@media (max-width: 640px){
+	.overlay nav figure{
+		width: 30%;
+		height: 120px;
+	}
+
+	.overlay nav figure h2{
+		font-size: 12px;
+	}
+	.overlay .overlay-menu {
+		min-height: 34px;
+	}
+
+
 }

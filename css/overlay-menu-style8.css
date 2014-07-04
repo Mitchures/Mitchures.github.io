@@ -116,12 +116,16 @@ body {
 	.overlay nav figure{
 		width: 30%;
 		height: 120px;
-		font-size: 34px;
+		/*font-size: 34px;*/
 	}
 
 	.myPic{
 		width: 70%;
 		height: 70%;
+	}
+
+	.overlay nav figure h2{
+		font-size: 12px;
 	}
 
 
