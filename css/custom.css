@@ -24,11 +24,12 @@ footer{
 
 footer p{
   text-align: center;
+  font-weight: 100 !important;
+  letter-spacing: .5px;
 }
 
 .githubFooterLink{
-  color: #B8B6B4;
-
+  color: #313131 !important;
 }
 
 #footer_wrap{
@@ -88,7 +89,9 @@ i:active{
 }
 
 body{
-  font-family: 'Lato-Light' !important;
+  font-family: 'Lato-Hairline' !important;
+  font-weight: 100 !important;
+  /*letter-spacing: 1.5px !important;*/
 }
 
 
@@ -290,6 +293,7 @@ i.menuShow:active{
 
 #learned-body p{
   color: white !important;
+  font-family: 'Lato-Light' !important;
 }
 .whatIKnowP{
   margin-bottom: 30px;
