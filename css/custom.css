@@ -94,6 +94,10 @@ body{
   /*letter-spacing: 1.5px !important;*/
 }
 
+.overlay h2{
+  font-family: 'Lato-Hairline' !important;
+}
+
 
 /*-- DIVIDERS CSS START --*/
 
