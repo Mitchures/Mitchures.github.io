@@ -1,0 +1,1515 @@
+/* line 3, ../sass/_hoverEffects-projects-page.scss */
+.grid {
+  overflow: hidden;
+  margin: 0;
+  padding: 3em 0 0 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+/* line 13, ../sass/_hoverEffects-projects-page.scss */
+.grid figure {
+  position: relative;
+  /*z-index: 1;*/
+  display: inline-block;
+  overflow: hidden;
+  /*margin: -0.135em;*/
+  /*margin: 1px;*/
+  width: 350px;
+  height: 350px;
+  /*-- Added Border --*/
+  /*border-radius: 100%;*/
+  border: 3px solid white;
+  /*width: 33.333%;
+  height: 400px;*/
+  /*background: #3085a3;*/
+  /*background: #6600ff;*/
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 33, ../sass/_hoverEffects-projects-page.scss */
+.overlay-menu {
+  overflow: hidden;
+  /*margin: 0;*/
+  padding: 0px;
+  /*width: 100%;*/
+  list-style: none;
+  text-align: center;
+}
+
+/* line 42, ../sass/_hoverEffects-projects-page.scss */
+.overlay-menu figure {
+  /*margin: 1px;*/
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  overflow: hidden;
+  width: 220px;
+  height: 220px;
+  background: transparent;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0%;
+  border: 3px solid white;
+}
+
+/* line 57, ../sass/_hoverEffects-projects-page.scss */
+.overlay-menu figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/*.grid figure:hover{
+	border: 3px solid grey;
+}*/
+/* line 68, ../sass/_hoverEffects-projects-page.scss */
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  opacity: 0.8;
+}
+
+/* line 76, ../sass/_hoverEffects-projects-page.scss */
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 84, ../sass/_hoverEffects-projects-page.scss */
+.overlay-menu figure figcaption {
+  padding: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 94, ../sass/_hoverEffects-projects-page.scss */
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+/* line 99, ../sass/_hoverEffects-projects-page.scss */
+.grid figure figcaption,
+.grid figure a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+/* line 109, ../sass/_hoverEffects-projects-page.scss */
+.grid figure a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+/* line 117, ../sass/_hoverEffects-projects-page.scss */
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+  /*-- Added text-shadow --*/
+  /*text-shadow: 0px 0px 10px #313131;*/
+}
+
+/* line 125, ../sass/_hoverEffects-projects-page.scss */
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+/* line 130, ../sass/_hoverEffects-projects-page.scss */
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+/* line 134, ../sass/_hoverEffects-projects-page.scss */
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+  /*font-size: 58.5%;*/
+  /*-- Added text-shadow --*/
+  /*text-shadow: 0px 0px 10px #313131;*/
+}
+
+/* Individual effects */
+/*---------------*/
+/***** Lily *****/
+/*---------------*/
+/* line 148, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-lily img {
+  width: -webkit-calc(100% + 50px);
+  width: calc(100% + 50px);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
+}
+
+/* line 158, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-lily figcaption {
+  top: auto;
+  bottom: 0;
+  height: 50%;
+  text-align: left;
+}
+
+/* line 166, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-lily h2,
+figure.effect-lily p {
+  -webkit-transform: translate3d(0, 40px, 0);
+  transform: translate3d(0, 40px, 0);
+}
+
+/* line 171, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-lily h2 {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+
+/* line 176, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-lily p {
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+}
+
+/* line 184, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-lily:hover img,
+figure.effect-lily:hover p {
+  opacity: 1;
+}
+
+/* line 190, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-lily:hover img,
+figure.effect-lily:hover h2,
+figure.effect-lily:hover p {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 195, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-lily:hover p {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+}
+
+/*---------------*/
+/***** Sadie *****/
+/*---------------*/
+/* line 206, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sadie figcaption::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(top, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+  content: '';
+  opacity: 0;
+  -webkit-transform: translate3d(0, 50%, 0);
+  transform: translate3d(0, 50%, 0);
+}
+
+/* line 220, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sadie h2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  color: #484c61;
+  -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+  transition: transform 0.35s, color 0.35s;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+
+/* line 233, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sadie figcaption::before,
+figure.effect-sadie p {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+/* line 238, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sadie p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2em;
+  width: 100%;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
+}
+
+/* line 249, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sadie:hover h2 {
+  color: #fff;
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
+}
+
+/* line 256, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sadie:hover figcaption::before,
+figure.effect-sadie:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/*---------------*/
+/***** Roxy *****/
+/*---------------*/
+/* line 266, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-roxy {
+  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+  background: linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+}
+
+/* line 271, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-roxy img {
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50px, 0, 0);
+  transform: translate3d(-50px, 0, 0);
+}
+
+/* line 280, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-roxy figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-20px, 0, 0);
+  transform: translate3d(-20px, 0, 0);
+}
+
+/* line 295, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-roxy figcaption {
+  padding: 3em;
+  text-align: left;
+}
+
+/* line 300, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-roxy h2 {
+  padding: 30% 0 10px 0;
+}
+
+/* line 304, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-roxy p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+}
+
+/* line 312, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-roxy:hover img {
+  opacity: 0.7;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 319, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-roxy:hover figcaption::before,
+figure.effect-roxy:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/*---------------*/
+/***** Bubba *****/
+/*---------------*/
+/* line 329, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-bubba {
+  /*background: #66D9EF;*/
+}
+
+/* line 333, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-bubba img {
+  opacity: 0.7;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+/* line 339, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-bubba:hover img {
+  opacity: 0.4;
+}
+
+/* line 344, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-bubba figcaption::before,
+figure.effect-bubba figcaption::after {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+/* line 356, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-bubba figcaption::before {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+/* line 363, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-bubba figcaption::after {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+/* line 370, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-bubba h2 {
+  padding-top: 30%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+}
+
+/* line 378, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-bubba p {
+  padding: 20px 2.5em;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+
+/* line 388, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-bubba:hover figcaption::before,
+figure.effect-bubba:hover figcaption::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* line 395, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-bubba:hover h2,
+figure.effect-bubba:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/*---------------*/
+/***** Romeo *****/
+/*---------------*/
+/* line 405, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-romeo {
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+/* line 410, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-romeo img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, 0, 300px);
+  transform: translate3d(0, 0, 300px);
+}
+
+/* line 417, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-romeo:hover img {
+  opacity: 0.6;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 424, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-romeo figcaption::before,
+figure.effect-romeo figcaption::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 1px;
+  background: #fff;
+  content: '';
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+/* line 438, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-romeo:hover figcaption::before {
+  opacity: 0.5;
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(45deg);
+  transform: translate3d(-50%, -50%, 0) rotate(45deg);
+}
+
+/* line 444, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-romeo:hover figcaption::after {
+  opacity: 0.5;
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+  transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+}
+
+/* line 451, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-romeo h2,
+figure.effect-romeo p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+
+/* line 460, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-romeo h2 {
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -150%, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, -150%, 0);
+}
+
+/* line 465, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-romeo p {
+  padding: 0.25em 2em;
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, 150%, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, 150%, 0);
+}
+
+/* line 471, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-romeo:hover h2 {
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -100%, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, -100%, 0);
+}
+
+/* line 476, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-romeo:hover p {
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, 100%, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, 100%, 0);
+}
+
+/*---------------*/
+/***** Layla *****/
+/*---------------*/
+/* line 485, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla {
+  /*background: #18a367;*/
+}
+
+/* line 489, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla img {
+  min-width: 100%;
+  height: -webkit-calc(100% + 40px);
+  height: calc(100% + 40px);
+}
+
+/* line 495, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla figcaption {
+  padding: 3em;
+}
+
+/* line 500, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla figcaption::before,
+figure.effect-layla figcaption::after {
+  position: absolute;
+  content: '';
+  opacity: 0;
+}
+
+/* line 506, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla figcaption::before {
+  top: 50px;
+  right: 30px;
+  bottom: 50px;
+  left: 30px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+/* line 519, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla figcaption::after {
+  top: 30px;
+  right: 50px;
+  bottom: 30px;
+  left: 50px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+
+/* line 532, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla h2 {
+  padding-top: 26%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+
+/* line 538, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla p {
+  padding: 0.5em 2em;
+  text-transform: none;
+  opacity: 0;
+  -webkit-transform: translate3d(0, -10px, 0);
+  transform: translate3d(0, -10px, 0);
+}
+
+/* line 547, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla img,
+figure.effect-layla h2 {
+  -webkit-transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0);
+}
+
+/* line 555, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla img,
+figure.effect-layla figcaption::before,
+figure.effect-layla figcaption::after,
+figure.effect-layla p {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+/* line 560, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla:hover img {
+  opacity: 0.7;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 567, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla:hover figcaption::before,
+figure.effect-layla:hover figcaption::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* line 574, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla:hover h2,
+figure.effect-layla:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 583, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-layla:hover figcaption::after,
+figure.effect-layla:hover h2,
+figure.effect-layla:hover p,
+figure.effect-layla:hover img {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+/*---------------*/
+/***** Honey *****/
+/*---------------*/
+/* line 592, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-honey {
+  background: transparent;
+}
+
+/* line 596, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-honey img {
+  opacity: 0.9;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+/* line 602, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-honey:hover img {
+  opacity: 0.5;
+}
+
+/* line 606, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-honey figcaption::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: #fff;
+  content: '';
+  -webkit-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
+}
+
+/* line 618, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-honey h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1em 1.5em;
+  width: 100%;
+  text-align: left;
+  -webkit-transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0);
+}
+
+/* line 629, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-honey h2 i {
+  font-style: normal;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0);
+}
+
+/* line 639, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-honey figcaption::before,
+figure.effect-honey h2 {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+
+/* line 646, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-honey:hover figcaption::before,
+figure.effect-honey:hover h2,
+figure.effect-honey:hover h2 i {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/*---------------*/
+/***** Oscar *****/
+/*---------------*/
+/* line 656, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-oscar {
+  background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+  background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+}
+
+/* line 661, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-oscar img {
+  opacity: 0.9;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+/* line 667, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-oscar figcaption {
+  padding: 3em;
+  background-color: rgba(58, 52, 42, 0.7);
+  -webkit-transition: background-color 0.35s;
+  transition: background-color 0.35s;
+}
+
+/* line 674, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-oscar figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: '';
+}
+
+/* line 684, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-oscar h2 {
+  margin: 20% 0 10px 0;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+/* line 693, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-oscar figcaption::before,
+figure.effect-oscar p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+/* line 701, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-oscar:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 707, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-oscar:hover figcaption::before,
+figure.effect-oscar:hover p {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* line 713, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-oscar:hover figcaption {
+  background-color: rgba(58, 52, 42, 0);
+}
+
+/* line 717, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-oscar:hover img {
+  opacity: 0.4;
+}
+
+/*---------------*/
+/***** Marley *****/
+/*---------------*/
+/* line 725, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-marley figcaption {
+  text-align: right;
+}
+
+/* line 730, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-marley h2,
+figure.effect-marley p {
+  position: absolute;
+  right: 30px;
+  left: 30px;
+  padding: 10px 0;
+}
+
+/* line 738, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-marley p {
+  bottom: 30px;
+  line-height: 1.5;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+/* line 745, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-marley h2 {
+  top: 30px;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+
+/* line 753, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-marley:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 758, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-marley h2::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #fff;
+  content: '';
+  -webkit-transform: translate3d(0, 40px, 0);
+  transform: translate3d(0, 40px, 0);
+}
+
+/* line 771, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-marley h2::after,
+figure.effect-marley p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+/* line 778, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-marley:hover h2::after,
+figure.effect-marley:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/*---------------*/
+/***** Ruby *****/
+/*---------------*/
+/* line 788, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-ruby {
+  /*background-color: #17819c;*/
+}
+
+/* line 792, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-ruby img {
+  opacity: 0.7;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+/* line 800, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-ruby:hover img {
+  opacity: 0.5;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* line 806, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-ruby h2 {
+  margin-top: 20%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+
+/* line 814, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-ruby p {
+  margin: 1em 0 0;
+  padding: 3em;
+  border: 1px solid #fff;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0) scale(1.1);
+  transform: translate3d(0, 20px, 0) scale(1.1);
+}
+
+/* line 825, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-ruby:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 830, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-ruby:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+/*---------------*/
+/***** Milo *****/
+/*---------------*/
+/* line 840, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-milo {
+  /*background: #2e5d5a;*/
+}
+
+/* line 844, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-milo img {
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
+  transform: translate3d(-30px, 0, 0) scale(1.12);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 856, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-milo:hover img {
+  opacity: 0.5;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+/* line 862, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-milo h2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em 1.2em;
+}
+
+/* line 869, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-milo p {
+  padding: 0 10px 0 0;
+  width: 50%;
+  border-right: 1px solid #fff;
+  text-align: right;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
+}
+
+/* line 881, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-milo:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/*---------------*/
+/***** Dexter *****/
+/*---------------*/
+/* line 891, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-dexter {
+  background: -webkit-linear-gradient(top, #258dc8 0%, #683c13 100%);
+  background: linear-gradient(to bottom, #258dc8 0%, #683c13 100%);
+}
+
+/* line 896, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-dexter img {
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+/* line 901, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-dexter:hover img {
+  opacity: 0.4;
+}
+
+/* line 905, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-dexter figcaption::after {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  height: -webkit-calc(50% - 30px);
+  height: calc(50% - 30px);
+  border: 7px solid #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}
+
+/* line 920, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-dexter:hover figcaption::after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 925, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-dexter figcaption {
+  padding: 3em;
+  text-align: left;
+}
+
+/* line 930, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-dexter p {
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+  left: 60px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, -100px, 0);
+  transform: translate3d(0, -100px, 0);
+}
+
+/* line 942, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-dexter:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/*---------------*/
+/***** Sarah *****/
+/*---------------*/
+/* line 952, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sarah {
+  /*background: #42b078;*/
+}
+
+/* line 956, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sarah img {
+  width: -webkit-calc(100% + 20px);
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 967, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sarah:hover img {
+  opacity: 0.4;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 973, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sarah figcaption {
+  text-align: left;
+}
+
+/* line 977, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sarah h2 {
+  position: relative;
+  overflow: hidden;
+  padding: 0.5em 0;
+}
+
+/* line 983, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sarah h2::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+
+/* line 997, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sarah:hover h2::after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 1002, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sarah p {
+  padding: 1em 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+
+/* line 1011, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-sarah:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/*---------------*/
+/***** Zoe *****/
+/*---------------*/
+/* line 1021, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe figcaption {
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 3.75em;
+  background: #fff;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+/* line 1034, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe h2 {
+  float: left;
+}
+
+/* line 1038, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe figcaption > span {
+  float: right;
+}
+
+/* line 1042, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe p {
+  position: absolute;
+  bottom: 8em;
+  padding: 2em;
+  color: #fff;
+  text-transform: none;
+  font-size: 90%;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+/* line 1055, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe h2,
+figure.effect-zoe figcaption > span {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
+}
+
+/* line 1062, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe figcaption > span::before {
+  display: inline-block;
+  padding: 8px 10px;
+  font-family: 'feathericons';
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 1071, ../sass/_hoverEffects-projects-page.scss */
+.icon-eye::before {
+  content: '\e000';
+}
+
+/* line 1075, ../sass/_hoverEffects-projects-page.scss */
+.icon-paper-clip::before {
+  content: '\e001';
+}
+
+/* line 1079, ../sass/_hoverEffects-projects-page.scss */
+.icon-heart::before {
+  content: '\e024';
+}
+
+/* line 1083, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe h2 {
+  display: inline-block;
+}
+
+/* line 1087, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe:hover p {
+  opacity: 1;
+}
+
+/* line 1093, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover h2,
+figure.effect-zoe:hover figcaption > span {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 1098, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe:hover h2 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+/* line 1103, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe:hover figcaption > span:nth-child(4) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+/* line 1108, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe:hover figcaption > span:nth-child(3) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+/* line 1113, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-zoe:hover figcaption > span:nth-child(2) {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+/* line 1122, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-chico img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+/* line 1129, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-chico:hover img {
+  opacity: 0.5;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* line 1135, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-chico figcaption {
+  padding: 3em;
+}
+
+/* line 1139, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-chico figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: '';
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* line 1152, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-chico figcaption::before,
+figure.effect-chico p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+/* line 1158, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-chico h2 {
+  padding: 20% 0 20px 0;
+}
+
+/* line 1162, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-chico p {
+  margin: 0 auto;
+  max-width: 200px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+/* line 1170, ../sass/_hoverEffects-projects-page.scss */
+figure.effect-chico:hover figcaption::before,
+figure.effect-chico:hover p {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+@media screen and (max-width: 69.5em) {
+  /* line 1177, ../sass/_hoverEffects-projects-page.scss */
+  .grid figure {
+    width: 50%;
+  }
+
+  /* line 1181, ../sass/_hoverEffects-projects-page.scss */
+  .grid figure figcaption {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 41.5em) {
+  /* line 1189, ../sass/_hoverEffects-projects-page.scss */
+  .grid figure {
+    width: 100%;
+  }
+}
+@-webkit-keyframes hue {
+  /* line 2, ../sass/_overlay-menu-projects.scss */
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  /* line 6, ../sass/_overlay-menu-projects.scss */
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+/* Overlay style */
+/* line 14, ../sass/_overlay-menu-projects.scss */
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /*background: rgba(148, 148, 148, 0.9);*/
+  /*background: rgba(102, 0, 255, 0.9);*/
+  background: rgba(46, 209, 192, 0.9);
+  -webkit-animation: hue 60s infinite linear !important;
+}
+
+/* Overlay closing cross */
+/* line 27, ../sass/_overlay-menu-projects.scss */
+.overlay .overlay-close {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  overflow: hidden;
+  border: none;
+  background: url(../img/cross.png) no-repeat center center;
+  text-indent: 200%;
+  color: transparent;
+  outline: none;
+  z-index: 100;
+}
+
+/* Menu style */
+/* line 43, ../sass/_overlay-menu-projects.scss */
+.overlay nav {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  height: 60%;
+  font-size: 54px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 53, ../sass/_overlay-menu-projects.scss */
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  height: 100%;
+  position: relative;
+}
+
+/* line 62, ../sass/_overlay-menu-projects.scss */
+.overlay ul li {
+  display: block;
+  height: 20%;
+  height: calc(100% / 5);
+  min-height: 54px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 71, ../sass/_overlay-menu-projects.scss */
+.overlay ul li a {
+  font-size: 54px;
+  font-weight: 300;
+  display: block;
+  color: #fff;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+/* line 81, ../sass/_overlay-menu-projects.scss */
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+  color: #f0f0f0;
+}
+
+/* Effects */
+/* line 86, ../sass/_overlay-menu-projects.scss */
+.overlay-door {
+  visibility: hidden;
+  width: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: width 0.5s 0.3s, visibility 0s 0.8s;
+  transition: width 0.5s 0.3s, visibility 0s 0.8s;
+}
+
+/* line 96, ../sass/_overlay-menu-projects.scss */
+.overlay-door.open {
+  visibility: visible;
+  width: 100%;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+/* line 103, ../sass/_overlay-menu-projects.scss */
+.overlay-door nav {
+  /*position: absolute;*/
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+/* line 111, ../sass/_overlay-menu-projects.scss */
+.overlay-door nav,
+.overlay-door .overlay-close {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s 0.5s;
+  transition: opacity 0.3s 0.5s;
+}
+
+/* line 118, ../sass/_overlay-menu-projects.scss */
+.overlay-door.open nav,
+.overlay-door.open .overlay-close {
+  opacity: 1;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+/* line 125, ../sass/_overlay-menu-projects.scss */
+.overlay-door.close nav,
+.overlay-door.close .overlay-close {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+@media (max-width: 768px) {
+  /* line 132, ../sass/_overlay-menu-projects.scss */
+  .overlay nav figure {
+    width: 194px;
+    height: 194px;
+  }
+
+  /* line 137, ../sass/_overlay-menu-projects.scss */
+  .overlay nav figure h2 {
+    font-size: 15px;
+  }
+
+  /* line 140, ../sass/_overlay-menu-projects.scss */
+  .overlay .overlay-menu {
+    min-height: 34px;
+  }
+}
+@media (max-width: 1050px) {
+  /* line 147, ../sass/_overlay-menu-projects.scss */
+  .overlay nav figure {
+    width: 194px;
+    height: 194px;
+  }
+
+  /* line 152, ../sass/_overlay-menu-projects.scss */
+  .overlay nav figure h2 {
+    font-size: 15px;
+  }
+
+  /* line 155, ../sass/_overlay-menu-projects.scss */
+  .overlay .overlay-menu {
+    min-height: 34px;
+  }
+}
+@media (max-width: 640px) {
+  /* line 162, ../sass/_overlay-menu-projects.scss */
+  .overlay nav figure {
+    width: 30%;
+    height: 120px;
+  }
+
+  /* line 167, ../sass/_overlay-menu-projects.scss */
+  .overlay nav figure h2 {
+    font-size: 12px;
+  }
+
+  /* line 170, ../sass/_overlay-menu-projects.scss */
+  .overlay .overlay-menu {
+    min-height: 34px;
+  }
+}

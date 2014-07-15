@@ -1,107 +1,101 @@
-/*---------- GLOBAL CSS START ----------*/
-
-/*-- FONTS START --*/
-
 @font-face {
   font-family: 'Lato-Light';
   src: url(../fonts/Lato-Light.ttf);
-
 }
+
 @font-face {
   font-family: 'Lato-Hairline';
   src: url(../fonts/Lato-Hairline.ttf);
-
 }
 
-/*-- FONTS START --*/
-
-/*-- FOOTER CSS START --*/
-
-footer{
+/* line 4, ../sass/custom.scss */
+footer {
   margin-top: 0 auto !important;
 }
-
-
-footer p{
+/* line 6, ../sass/custom.scss */
+footer p {
   text-align: center;
-  font-weight: 100 !important;
-  letter-spacing: .5px;
-  font-family: 'Lato-Hairline' !important;
+  font-weight: 300 !important;
+  font-family: 'Lato-Light' !important;
+  letter-spacing: 2px;
 }
 
-.githubFooterLink{
+/* line 18, ../sass/custom.scss */
+.githubFooterLink {
   color: #313131 !important;
 }
 
-#footer_wrap{
+/* line 20, ../sass/custom.scss */
+#footer_wrap {
   border-top: 3px solid white !important;
   margin-top: 10% !important;
   margin-bottom: auto;
   padding: 10px;
 }
 
-/*-- FOOTER CSS END --*/
-
-/*-- HEADERS CSS START --*/
-h3{
+/* line 30, ../sass/custom.scss */
+h3 {
   text-align: center;
   font-size: 15px;
   color: white;
 }
 
-h4{
+/* line 36, ../sass/custom.scss */
+h4 {
   text-align: center;
   font-size: 14px;
   color: white;
 }
 
-/*-- HEADERS CSS END --*/
-
-#trigger-overlay{
-  /*position: fixed !important;*/
-  /*margin-top: 10px !important;*/
-  /*padding: 5px !important;*/
+/* line 44, ../sass/custom.scss */
+#trigger-overlay {
   margin-left: 15px !important;
 }
 
-i{
+/* line 46, ../sass/custom.scss */
+i {
   color: white !important;
   margin-right: 10px !important;
 }
-
-i:hover{
+/* line 49, ../sass/custom.scss */
+i:hover {
   color: grey !important;
 }
-a:hover{
-  color: grey !important;
-  background: transparent !important;
-}
-i:active{
+/* line 52, ../sass/custom.scss */
+i:active {
   color: black !important;
 }
 
-.menuShow{
-  margin-top: 10px !important;
-  padding: 5px !important;
+/* line 57, ../sass/custom.scss */
+a:hover {
+  color: grey !important;
+  background: transparent !important;
 }
-.menuShowHome{
+
+/* line 63, ../sass/custom.scss */
+.menuShow {
   margin-top: 10px !important;
   padding: 5px !important;
 }
 
-body{
+/* line 67, ../sass/custom.scss */
+.menuShowHome {
+  margin-top: 10px !important;
+  padding: 5px !important;
+}
+
+/* line 72, ../sass/custom.scss */
+body {
   font-family: 'Lato-Light' !important;
-  /*letter-spacing: 1.5px !important;*/
 }
 
-.overlay h2{
-  font-family: 'Lato-Hairline' !important;
+/* line 75, ../sass/custom.scss */
+.overlay h2 {
+  font-family: 'Lato-Light' !important;
 }
 
-
-/*-- DIVIDERS CSS START --*/
-
-.bg-divider{
+/* line 83, ../sass/custom.scss */
+.bg-divider {
   width: 70% !important;
   height: 70% !important;
   margin-left: auto;
@@ -109,7 +103,9 @@ body{
   margin-right: auto;
   display: block;
 }
-.bg-divider-flipped{
+
+/* line 93, ../sass/custom.scss */
+.bg-divider-flipped {
   width: 70% !important;
   height: 70% !important;
   margin-left: auto;
@@ -117,143 +113,148 @@ body{
   margin-bottom: 10px;
   display: block;
   -webkit-transform: rotate(-180deg);
-
 }
 
-/*-- DIVIDERS CSS END --*/
-
-
-/*-- ANIMATIONS CSS START --*/
-
-.animated.fadeIn{
+/* line 109, ../sass/custom.scss */
+.animated .fadeIn {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-.animated.fadeInUp.content{
+/* line 116, ../sass/custom.scss */
+.animated .fadeInUp .content {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-.animated.fadeInDown.content{
+/* line 124, ../sass/custom.scss */
+.animated .fadeInDown .content {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-.animated.fadeInLeft{
+/* line 131, ../sass/custom.scss */
+.animated .fadeInLeft {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-.animated.fadeInRight{
+/* line 137, ../sass/custom.scss */
+.animated .fadeInRight {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-.animated.fadeInUp{
+/* line 143, ../sass/custom.scss */
+.animated .fadeInUp {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-.animated.fadeOut{
+/* line 149, ../sass/custom.scss */
+.animated .fadeOut {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-
-.animated.slideInDown{
+/* line 156, ../sass/custom.scss */
+.animated .slideInDown {
   -webkit-animation-duration: .5s;
   -webkit-animation-delay: 0s;
   -webkit-overflow: hidden;
 }
-.menu.animated.fadeInDown{
+
+/* line 166, ../sass/custom.scss */
+.menu.animated .fadeInDown {
   -webkit-animation-duration: .1s;
   -webkit-animation-delay: 0s;
   -webkit-overflow: hidden;
 }
-.menu.animated.fadeInDown.one{
+/* line 173, ../sass/custom.scss */
+.menu.animated .fadeInDown.one {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .6s;
   -webkit-overflow: hidden;
 }
-.menu.animated.fadeInDown.two{
+/* line 180, ../sass/custom.scss */
+.menu.animated .fadeInDown.two {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .7s;
   -webkit-overflow: hidden;
 }
-.menu.animated.fadeInDown.three{
+/* line 187, ../sass/custom.scss */
+.menu.animated .fadeInDown.three {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .8s;
   -webkit-overflow: hidden;
 }
-.menu.animated.fadeInDown.four{
+/* line 194, ../sass/custom.scss */
+.menu.animated .fadeInDown.four {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .9s;
   -webkit-overflow: hidden;
 }
-.menu.animated.fadeInDown.five{
+/* line 201, ../sass/custom.scss */
+.menu.animated .fadeInDown.five {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 1s;
   -webkit-overflow: hidden;
 }
 
-/*-- ANIMATIONS CSS END --*/
-
-
-
-/*---------- GLOBAL CSS END ----------*/
-
-
-
-
-
-
-/*----- INDEX.HTML PAGE START -----*/
-
-#body{
+/* line 212, ../sass/custom.scss */
+#body {
   background: #EB4646 !important;
 }
 
-
-i.fa-angle-down{
+/* line 215, ../sass/custom.scss */
+i.fa-angle-down {
   margin-left: 50% !important;
   margin-right: 50% !important;
   position: relative !important;
   bottom: 50px !important;
 }
-i.fa-angle-down:hover{
+/* line 220, ../sass/custom.scss */
+i.fa-angle-down:hover {
   color: white !important;
 }
 
-.cbp-so-scroller h2{
+/* line 226, ../sass/custom.scss */
+.cbp-so-scroller h2 {
   color: white !important;
 }
-.cbp-so-scroller p{
+/* line 229, ../sass/custom.scss */
+.cbp-so-scroller p {
   color: white !important;
 }
 
-.intro{
+/* line 234, ../sass/custom.scss */
+.intro {
   font-size: 50px !important;
 }
 
-.mySmallLink{
+/* line 236, ../sass/custom.scss */
+.mySmallLink {
   position: relative;
   bottom: 2px;
 }
 
-.bioLinks{
+/* line 241, ../sass/custom.scss */
+.bioLinks {
   color: #B8B6B4;
 }
-.bioLinks:hover{
+/* line 243, ../sass/custom.scss */
+.bioLinks:hover {
   text-decoration: none;
 }
 
-i.menuShow{
+/* line 248, ../sass/custom.scss */
+i.menuShow {
   color: white !important;
 }
-i.menuShow:hover{
+/* line 250, ../sass/custom.scss */
+i.menuShow:hover {
   color: grey !important;
 }
-i.menuShow:active{
+/* line 253, ../sass/custom.scss */
+i.menuShow:active {
   color: black !important;
 }
 
-/*-- MY PIC CSS START --*/
-
-.myPic{
+/* line 258, ../sass/custom.scss */
+.myPic {
   display: block;
   width: 300px;
   height: 300px;
@@ -264,42 +265,27 @@ i.menuShow:active{
   border: 3px solid white;
 }
 
-/*-- MY PIC CSS END --*/
-
-.aboutMeP{
+/* line 271, ../sass/custom.scss */
+.aboutMeP {
   padding-left: auto;
   padding-right: auto;
-  text-align: left;
   padding-bottom: 20px;
+  text-align: left;
   font-size: 20px;
 }
 
-
-
-/*----- INDEX.HTML PAGE END -----*/
-
-
-
-
-
-
-
-
-
-
-/*----- WHAT I KNOW.HTML PAGE START  -----*/
-
-#learned-body{
+/* line 284, ../sass/custom.scss */
+#learned-body {
   background: #F5D15B !important;
-  /*background: #2ED1C0 !important;*/
 }
-
-
-#learned-body p{
+/* line 286, ../sass/custom.scss */
+#learned-body p {
   color: white !important;
   font-family: 'Lato-Light' !important;
 }
-.whatIKnowP{
+
+/* line 292, ../sass/custom.scss */
+.whatIKnowP {
   margin-bottom: 30px;
   padding-left: 100px;
   padding-right: 100px;
@@ -308,8 +294,8 @@ i.menuShow:active{
   color: white !important;
 }
 
-
-.learned-titles{
+/* line 303, ../sass/custom.scss */
+.learned-titles {
   padding: 10px;
   text-align: center;
   font-size: 90px !important;
@@ -317,92 +303,53 @@ i.menuShow:active{
   border-bottom: 3px solid white !important;
 }
 
-/*-- LANGUAGES LIST CSS START --*/
-
-
-.languages.col-sm-3{
-  list-style-type: none;
-  text-align: center;
-  position: relative;
-/*  color: #6600ff;*/
-}
-.languages.col-sm-3 a{
-  font-size: 20px !important;
-  list-style-type: none;
-  text-align: center;
-  position: relative;
-  color: white;
-}
-.languages.col-sm-3 a:hover{
-  list-style-type: none;
-  text-align: center;
-  position: relative;
-  color: grey;
-  text-decoration: none;
-}
-
-
-/*-- LANGUAGES LIST CSS END --*/
-
-
-/*----- WHAT I KNOW.HTML PAGE END  -----*/
-
-
-
-
-
-
-
-
-
-
-/*----- PROJECTS PAGE.HTML START  -----*/
-
-#projects-body{
+/* line 312, ../sass/custom.scss */
+#projects-body {
   background: #309FFF !important;
-  /*background: #EB4646 !important;*/
 }
-
-#projects-body h1{
+/* line 314, ../sass/custom.scss */
+#projects-body h1 {
   color: white !important;
   border-bottom: 3px solid white !important;
 }
-#projects-body p{
+/* line 318, ../sass/custom.scss */
+#projects-body p {
   color: white !important;
 }
 
-#project-title{
+/* line 323, ../sass/custom.scss */
+#project-title {
   font-size: 100px !important;
   padding: 15px;
   text-align: center;
 }
 
-.projects-icon{
+/* line 329, ../sass/custom.scss */
+.projects-icon {
   color: white !important;
 }
-.projects-icon:hover{
+/* line 331, ../sass/custom.scss */
+.projects-icon:hover {
   color: white !important;
 }
-.projects-icon:active{
+/* line 334, ../sass/custom.scss */
+.projects-icon:active {
   color: white !important;
 }
 
-.status{
+/* line 339, ../sass/custom.scss */
+.status {
   color: white !important;
-  /*border-left: 13px solid #6600ff !important;*/
-  /*background: #6600ff !important;*/
   padding-left: 2px !important;
   padding-right: 2px !important;
-  /*border-radius: 10px !important;*/
 }
 
-.fa-check-square{
+/* line 347, ../sass/custom.scss */
+.fa-check-square {
   color: white !important;
 }
-.fa-square{
+
+/* line 348, ../sass/custom.scss */
+.fa-square {
   color: grey !important;
 }
-
-
-
-/*----- PROJECTS PAGE.HTML END  -----*/

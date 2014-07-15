@@ -5,6 +5,15 @@
 
 .cbp-so-section {
 	margin-bottom: 15em;
+	h2 {
+		font-size: 5em;
+		font-weight: 300;
+		line-height: 1;
+	}
+	p {
+		font-size: 2em;
+		font-weight: 300
+	}
 }
 
 /* Clear floats of children */
@@ -16,18 +25,6 @@
 
 .cbp-so-section:after {
 	clear: both;
-}
-
-/* Text styling */
-.cbp-so-section h2 {
-	font-size: 5em;
-	font-weight: 300;
-	line-height: 1;
-}
-
-.cbp-so-section p {
-	font-size: 2em;
-	font-weight: 300;
 }
 
 /* Sides */
@@ -84,16 +81,17 @@ article.cbp-so-side-left {
 	opacity: 0;
 }
 
-.cbp-so-init .cbp-so-side-left {
-	-webkit-transform: translateX(-80px);
-	-moz-transform: translateX(-80px);
-	transform: translateX(-80px);
-}
-
-.cbp-so-init .cbp-so-side-right {
-	-webkit-transform: translateX(80px);
-	-moz-transform: translateX(80px);
-	transform: translateX(80px);
+.cbp-so-init {
+	.cbp-so-side-left {
+		-webkit-transform: translateX(-80px);
+		-moz-transform: translateX(-80px);
+		transform: translateX(-80px);
+	}
+	.cbp-so-side-right {
+		-webkit-transform: translateX(80px);
+		-moz-transform: translateX(80px);
+		transform: translateX(80px);
+	}
 }
 
 /* Animated state */
@@ -117,26 +115,19 @@ article.cbp-so-side-left {
 /* Example media queries */
 
 @media screen and (max-width: 73.5em) {
-	.cbp-so-scroller {
-		font-size: 65%;
-	}
+	.cbp-so-scroller { font-size: 65%; }
 
-	.cbp-so-section h2 {
-		margin: 0;
-	}
+	.cbp-so-section h2 { margin: 0; }
 
-	.cbp-so-side img {
-		max-width: 120%;
-	}
+	.cbp-so-side img { max-width: 120%; }
 }
 
 @media screen and (max-width: 41.125em) {
 	.cbp-so-side {
 		float: none;
 		width: 100%;
-	}
-
-	.cbp-so-side img {
-		max-width: 100%;
+		img {
+			max-width: 100%;
+		}
 	}
 }

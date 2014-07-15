@@ -1,0 +1,348 @@
+@font-face { font-family: 'Lato-Light'; src: url(../fonts/Lato-Light.ttf);}
+@font-face { font-family: 'Lato-Hairline'; src: url(../fonts/Lato-Hairline.ttf); }
+
+footer {
+  margin-top: 0 auto !important;
+    p {
+      text: {
+        align: center;
+        }
+      font: {
+        weight: 300 !important;
+        family: 'Lato-Light' !important;
+        }
+      letter-spacing: 2px;
+    }
+}
+
+.githubFooterLink{ color: #313131 !important; }
+
+#footer_wrap{
+  border-top: 3px solid white !important;
+  margin: {
+    top: 10% !important;
+    bottom: auto;
+    }
+  padding: 10px;
+}
+
+
+h3{
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+h4{
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+
+
+#trigger-overlay{ margin-left: 15px !important; }
+
+i{
+  color: white !important;
+  margin-right: 10px !important;
+  &:hover{
+    color: grey !important;
+  }
+  &:active{
+    color: black !important;
+  }
+}
+
+a:hover{
+  color: grey !important;
+  background: transparent !important;
+}
+
+
+.menuShow{
+  margin-top: 10px !important;
+  padding: 5px !important;
+}
+.menuShowHome{
+  margin-top: 10px !important;
+  padding: 5px !important;
+}
+
+body{ font-family: 'Lato-Light' !important; }
+
+.overlay {
+  h2 {
+    font-family: 'Lato-Light' !important;
+  }
+}
+
+
+
+
+.bg-divider{
+  width: 70% !important;
+  height: 70% !important;
+  margin: {
+    left: auto;
+    bottom: 10px;
+    right: auto;
+  }
+  display: block;
+}
+.bg-divider-flipped{
+  width: 70% !important;
+  height: 70% !important;
+  margin: {
+    left: auto;
+    right: auto;
+    bottom: 10px;
+  }
+  display: block;
+  -webkit-transform: rotate(-180deg);
+
+}
+
+
+
+.animated {
+  .fadeIn {
+    -webkit-animation: {
+      duration: 1s;
+      delay: .5s;
+    }
+  }
+  .fadeInUp {
+    .content {
+      -webkit-animation: {
+        duration: 1s;
+        delay: .5s;
+      }
+    }
+  }
+  .fadeInDown{
+    .content{
+      -webkit-animation: {
+        duration: 1s;
+        delay: .5s;
+      }
+    }
+  }
+  .fadeInLeft{
+  -webkit-animation: {
+    duration: 1s;
+    delay: .5s;
+    }
+  }
+  .fadeInRight{
+    -webkit-animation: {
+      duration: 1s;
+      delay: .5s;
+    }
+  }
+  .fadeInUp{
+    -webkit-animation: {
+      duration: 1s;
+      delay: .5s;
+    }
+  }
+  .fadeOut{
+    -webkit-animation: {
+      duration: 1s;
+      delay: .5s;
+    }
+  }
+
+  .slideInDown{
+    -webkit-animation: {
+      duration: .5s;
+      delay: 0s;
+    }
+    -webkit-overflow: hidden;
+  }
+}
+
+.menu.animated {
+  .fadeInDown{
+    -webkit-animation: {
+      duration: .1s;
+      delay: 0s;
+    }
+    -webkit-overflow: hidden;
+  }
+  .fadeInDown.one{
+    -webkit-animation: {
+      duration: 1s;
+      delay: .6s;
+    }
+    -webkit-overflow: hidden;
+  }
+  .fadeInDown.two{
+    -webkit-animation: {
+      duration: 1s;
+      delay: .7s;
+    }
+    -webkit-overflow: hidden;
+  }
+  .fadeInDown.three{
+    -webkit-animation: {
+      duration: 1s;
+      delay: .8s;
+    }
+    -webkit-overflow: hidden;
+  }
+  .fadeInDown.four{
+    -webkit-animation: {
+      duration: 1s;
+      delay: .9s;
+    }
+    -webkit-overflow: hidden;
+  }
+  .fadeInDown.five{
+    -webkit-animation: {
+      duration: 1s;
+      delay: 1s;
+    }
+    -webkit-overflow: hidden;
+  }
+}
+
+
+
+#body{ background: #EB4646 !important; }
+
+
+i.fa-angle-down{
+  margin-left: 50% !important;
+  margin-right: 50% !important;
+  position: relative !important;
+  bottom: 50px !important;
+  &:hover{
+    color: white !important;
+  }
+}
+
+.cbp-so-scroller {
+  h2 {
+    color: white !important;
+  }
+  p {
+    color: white !important;
+  }
+}
+
+.intro{ font-size: 50px !important; }
+
+.mySmallLink{
+  position: relative;
+  bottom: 2px;
+}
+
+.bioLinks{
+  color: #B8B6B4;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+i.menuShow{
+  color: white !important;
+  &:hover{
+    color: grey !important;
+  }
+  &:active{
+    color: black !important;
+  }
+}
+
+.myPic{
+  display: block;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: {
+    top: 80px;
+    right: 20%;
+  }
+  border-radius: 200px;
+  border: 3px solid white;
+}
+
+.aboutMeP{
+  padding: {
+    left: auto;
+    right: auto;
+    bottom: 20px;
+  }
+  text-align: left;
+  font-size: 20px;
+}
+
+
+
+
+#learned-body{
+  background: #F5D15B !important;
+  p {
+    color: white !important;
+    font-family: 'Lato-Light' !important;
+  }
+}
+
+.whatIKnowP{
+  margin-bottom: 30px;
+  padding: {
+    left: 100px;
+    right: 100px;
+  }
+  text-align: center;
+  font-size: 20px;
+  color: white !important;
+}
+
+.learned-titles{
+  padding: 10px;
+  text-align: center;
+  font-size: 90px !important;
+  color: white !important;
+  border-bottom: 3px solid white !important;
+}
+
+
+#projects-body{
+  background: #309FFF !important;
+  h1 {
+    color: white !important;
+    border-bottom: 3px solid white !important;
+  }
+  p {
+    color: white !important;
+  }
+}
+
+#project-title{
+  font-size: 100px !important;
+  padding: 15px;
+  text-align: center;
+}
+
+.projects-icon{
+  color: white !important;
+  &:hover{
+    color: white !important;
+  }
+  &:active{
+    color: white !important;
+  }
+}
+
+.status{
+  color: white !important;
+  padding: {
+    left: 2px !important;
+    right: 2px !important;
+  }
+}
+
+.fa-check-square{ color: white !important; }
+.fa-square{ color: grey !important; }
