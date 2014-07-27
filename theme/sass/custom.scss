@@ -46,12 +46,8 @@ h4{
 i{
   color: white !important;
   margin-right: 10px !important;
-  &:hover{
-    color: grey !important;
-  }
-  &:active{
-    color: black !important;
-  }
+  &:hover{ color: grey !important; }
+  &:active{ color: black !important; }
 }
 
 a:hover{
@@ -71,14 +67,7 @@ a:hover{
 
 body{ font-family: 'Lato-Light' !important; }
 
-.overlay {
-  h2 {
-    font-family: 'Lato-Light' !important;
-  }
-}
-
-
-
+.overlay { h2 { font-family: 'Lato-Light' !important; } }
 
 .bg-divider{
   width: 70% !important;
@@ -217,18 +206,12 @@ i.fa-angle-down{
   margin-right: 50% !important;
   position: relative !important;
   bottom: 50px !important;
-  &:hover{
-    color: white !important;
-  }
+  &:hover{ color: white !important; }
 }
 
 .cbp-so-scroller {
-  h2 {
-    color: white !important;
-  }
-  p {
-    color: white !important;
-  }
+  h2 { color: white !important; }
+  p { color: white !important; }
 }
 
 .intro{ font-size: 50px !important; }
@@ -240,19 +223,13 @@ i.fa-angle-down{
 
 .bioLinks{
   color: #B8B6B4;
-  &:hover{
-    text-decoration: none;
-  }
+  &:hover{ text-decoration: none; }
 }
 
 i.menuShow{
   color: white !important;
-  &:hover{
-    color: grey !important;
-  }
-  &:active{
-    color: black !important;
-  }
+  &:hover{ color: grey !important; }
+  &:active{ color: black !important; }
 }
 
 .myPic{
@@ -315,9 +292,7 @@ i.menuShow{
     color: white !important;
     border-bottom: 3px solid white !important;
   }
-  p {
-    color: white !important;
-  }
+  p { color: white !important; }
 }
 
 #project-title{
@@ -328,12 +303,8 @@ i.menuShow{
 
 .projects-icon{
   color: white !important;
-  &:hover{
-    color: white !important;
-  }
-  &:active{
-    color: white !important;
-  }
+  &:hover{ color: white !important; }
+  &:active{ color: white !important; }
 }
 
 .status{

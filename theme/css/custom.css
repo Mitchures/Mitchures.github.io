@@ -61,40 +61,40 @@ i {
 i:hover {
   color: grey !important;
 }
-/* line 52, ../sass/custom.scss */
+/* line 50, ../sass/custom.scss */
 i:active {
   color: black !important;
 }
 
-/* line 57, ../sass/custom.scss */
+/* line 53, ../sass/custom.scss */
 a:hover {
   color: grey !important;
   background: transparent !important;
 }
 
-/* line 63, ../sass/custom.scss */
+/* line 59, ../sass/custom.scss */
 .menuShow {
   margin-top: 10px !important;
   padding: 5px !important;
 }
 
-/* line 67, ../sass/custom.scss */
+/* line 63, ../sass/custom.scss */
 .menuShowHome {
   margin-top: 10px !important;
   padding: 5px !important;
 }
 
-/* line 72, ../sass/custom.scss */
+/* line 68, ../sass/custom.scss */
 body {
   font-family: 'Lato-Light' !important;
 }
 
-/* line 75, ../sass/custom.scss */
+/* line 70, ../sass/custom.scss */
 .overlay h2 {
   font-family: 'Lato-Light' !important;
 }
 
-/* line 83, ../sass/custom.scss */
+/* line 72, ../sass/custom.scss */
 .bg-divider {
   width: 70% !important;
   height: 70% !important;
@@ -104,7 +104,7 @@ body {
   display: block;
 }
 
-/* line 93, ../sass/custom.scss */
+/* line 82, ../sass/custom.scss */
 .bg-divider-flipped {
   width: 70% !important;
   height: 70% !important;
@@ -115,145 +115,145 @@ body {
   -webkit-transform: rotate(-180deg);
 }
 
-/* line 109, ../sass/custom.scss */
+/* line 98, ../sass/custom.scss */
 .animated .fadeIn {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-/* line 116, ../sass/custom.scss */
+/* line 105, ../sass/custom.scss */
 .animated .fadeInUp .content {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-/* line 124, ../sass/custom.scss */
+/* line 113, ../sass/custom.scss */
 .animated .fadeInDown .content {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-/* line 131, ../sass/custom.scss */
+/* line 120, ../sass/custom.scss */
 .animated .fadeInLeft {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-/* line 137, ../sass/custom.scss */
+/* line 126, ../sass/custom.scss */
 .animated .fadeInRight {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-/* line 143, ../sass/custom.scss */
+/* line 132, ../sass/custom.scss */
 .animated .fadeInUp {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-/* line 149, ../sass/custom.scss */
+/* line 138, ../sass/custom.scss */
 .animated .fadeOut {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .5s;
 }
-/* line 156, ../sass/custom.scss */
+/* line 145, ../sass/custom.scss */
 .animated .slideInDown {
   -webkit-animation-duration: .5s;
   -webkit-animation-delay: 0s;
   -webkit-overflow: hidden;
 }
 
-/* line 166, ../sass/custom.scss */
+/* line 155, ../sass/custom.scss */
 .menu.animated .fadeInDown {
   -webkit-animation-duration: .1s;
   -webkit-animation-delay: 0s;
   -webkit-overflow: hidden;
 }
-/* line 173, ../sass/custom.scss */
+/* line 162, ../sass/custom.scss */
 .menu.animated .fadeInDown.one {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .6s;
   -webkit-overflow: hidden;
 }
-/* line 180, ../sass/custom.scss */
+/* line 169, ../sass/custom.scss */
 .menu.animated .fadeInDown.two {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .7s;
   -webkit-overflow: hidden;
 }
-/* line 187, ../sass/custom.scss */
+/* line 176, ../sass/custom.scss */
 .menu.animated .fadeInDown.three {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .8s;
   -webkit-overflow: hidden;
 }
-/* line 194, ../sass/custom.scss */
+/* line 183, ../sass/custom.scss */
 .menu.animated .fadeInDown.four {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: .9s;
   -webkit-overflow: hidden;
 }
-/* line 201, ../sass/custom.scss */
+/* line 190, ../sass/custom.scss */
 .menu.animated .fadeInDown.five {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 1s;
   -webkit-overflow: hidden;
 }
 
-/* line 212, ../sass/custom.scss */
+/* line 201, ../sass/custom.scss */
 #body {
   background: #EB4646 !important;
 }
 
-/* line 215, ../sass/custom.scss */
+/* line 204, ../sass/custom.scss */
 i.fa-angle-down {
   margin-left: 50% !important;
   margin-right: 50% !important;
   position: relative !important;
   bottom: 50px !important;
 }
-/* line 220, ../sass/custom.scss */
+/* line 209, ../sass/custom.scss */
 i.fa-angle-down:hover {
   color: white !important;
 }
 
-/* line 226, ../sass/custom.scss */
+/* line 213, ../sass/custom.scss */
 .cbp-so-scroller h2 {
   color: white !important;
 }
-/* line 229, ../sass/custom.scss */
+/* line 214, ../sass/custom.scss */
 .cbp-so-scroller p {
   color: white !important;
 }
 
-/* line 234, ../sass/custom.scss */
+/* line 217, ../sass/custom.scss */
 .intro {
   font-size: 50px !important;
 }
 
-/* line 236, ../sass/custom.scss */
+/* line 219, ../sass/custom.scss */
 .mySmallLink {
   position: relative;
   bottom: 2px;
 }
 
-/* line 241, ../sass/custom.scss */
+/* line 224, ../sass/custom.scss */
 .bioLinks {
   color: #B8B6B4;
 }
-/* line 243, ../sass/custom.scss */
+/* line 226, ../sass/custom.scss */
 .bioLinks:hover {
   text-decoration: none;
 }
 
-/* line 248, ../sass/custom.scss */
+/* line 229, ../sass/custom.scss */
 i.menuShow {
   color: white !important;
 }
-/* line 250, ../sass/custom.scss */
+/* line 231, ../sass/custom.scss */
 i.menuShow:hover {
   color: grey !important;
 }
-/* line 253, ../sass/custom.scss */
+/* line 232, ../sass/custom.scss */
 i.menuShow:active {
   color: black !important;
 }
 
-/* line 258, ../sass/custom.scss */
+/* line 235, ../sass/custom.scss */
 .myPic {
   display: block;
   width: 300px;
@@ -265,7 +265,7 @@ i.menuShow:active {
   border: 3px solid white;
 }
 
-/* line 271, ../sass/custom.scss */
+/* line 248, ../sass/custom.scss */
 .aboutMeP {
   padding-left: auto;
   padding-right: auto;
@@ -274,17 +274,17 @@ i.menuShow:active {
   font-size: 20px;
 }
 
-/* line 284, ../sass/custom.scss */
+/* line 261, ../sass/custom.scss */
 #learned-body {
   background: #F5D15B !important;
 }
-/* line 286, ../sass/custom.scss */
+/* line 263, ../sass/custom.scss */
 #learned-body p {
   color: white !important;
   font-family: 'Lato-Light' !important;
 }
 
-/* line 292, ../sass/custom.scss */
+/* line 269, ../sass/custom.scss */
 .whatIKnowP {
   margin-bottom: 30px;
   padding-left: 100px;
@@ -294,7 +294,7 @@ i.menuShow:active {
   color: white !important;
 }
 
-/* line 303, ../sass/custom.scss */
+/* line 280, ../sass/custom.scss */
 .learned-titles {
   padding: 10px;
   text-align: center;
@@ -303,53 +303,53 @@ i.menuShow:active {
   border-bottom: 3px solid white !important;
 }
 
-/* line 312, ../sass/custom.scss */
+/* line 289, ../sass/custom.scss */
 #projects-body {
   background: #309FFF !important;
 }
-/* line 314, ../sass/custom.scss */
+/* line 291, ../sass/custom.scss */
 #projects-body h1 {
   color: white !important;
   border-bottom: 3px solid white !important;
 }
-/* line 318, ../sass/custom.scss */
+/* line 295, ../sass/custom.scss */
 #projects-body p {
   color: white !important;
 }
 
-/* line 323, ../sass/custom.scss */
+/* line 298, ../sass/custom.scss */
 #project-title {
   font-size: 100px !important;
   padding: 15px;
   text-align: center;
 }
 
-/* line 329, ../sass/custom.scss */
+/* line 304, ../sass/custom.scss */
 .projects-icon {
   color: white !important;
 }
-/* line 331, ../sass/custom.scss */
+/* line 306, ../sass/custom.scss */
 .projects-icon:hover {
   color: white !important;
 }
-/* line 334, ../sass/custom.scss */
+/* line 307, ../sass/custom.scss */
 .projects-icon:active {
   color: white !important;
 }
 
-/* line 339, ../sass/custom.scss */
+/* line 310, ../sass/custom.scss */
 .status {
   color: white !important;
   padding-left: 2px !important;
   padding-right: 2px !important;
 }
 
-/* line 347, ../sass/custom.scss */
+/* line 318, ../sass/custom.scss */
 .fa-check-square {
   color: white !important;
 }
 
-/* line 348, ../sass/custom.scss */
+/* line 319, ../sass/custom.scss */
 .fa-square {
   color: grey !important;
 }
