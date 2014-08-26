@@ -1,4 +1,4 @@
 MitchellHollander.com (old site)
 ====================
 
-mitchellsh.github.io
+http://mitchellsh.github.io
