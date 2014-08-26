@@ -1,4 +1,4 @@
 MitchellHollander.com (old site)
 ====================
 
-www.mitchell-hollander.firebaseapp.com
+mitchellsh.github.io
