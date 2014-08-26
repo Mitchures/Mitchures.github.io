@@ -1,6 +1,4 @@
-MitchellSH.github.io
+MitchellHollander.com (old site)
 ====================
 
-Github Pages User Site.
-
-www.mitchellhollander.com
+www.mitchell-hollander.firebaseapp.com

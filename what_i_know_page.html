@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="mitch">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,187 +36,13 @@
         </p>
         <div class='dividerDiv'></div>
         <h2 class='learned-titles'>Concepts I've Learned <i class="fa fa-code fa-1x projects-icon"></i></h2>
-        <div class="grid">
-          <figure class="effect-honey">
+        <div class="grid" ng-controller="LearnedController as learned">
+          <figure class="effect-honey" ng-repeat="languages in learned.languages">
             <figcaption>
-              <h2>HTML</h2>
-              <a href="http://en.wikipedia.org/wiki/HTML5">View more</a>
+              <h2>{{languages.name}}</h2>
+              <a href="{{languages.link}}">View more</a>
             </figcaption>
           </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>CSS</h2>
-              <a href="http://www.w3.org/Style/CSS/Overview.en.html">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Javascript</h2>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>LESS</h2>
-              <a href="http://lesscss.org/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>JADE</h2>
-              <a href="http://jade-lang.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>AJAX</h2>
-              <a href="http://en.wikipedia.org/wiki/Ajax_(programming)">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>jQuery</h2>
-              <a href="http://jquery.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Lo-Dash</h2>
-              <a href="http://lodash.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Ruby</h2>
-              <a href="http://ruby-doc.org/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Bootstrap</h2>
-              <a href="http://getbootstrap.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Vim</h2>
-              <a href="http://www.vim.org/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Atom</h2>
-              <a href="https://atom.io/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Sublime</h2>
-              <a href="http://www.sublimetext.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Brackets</h2>
-              <a href="http://brackets.io/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Terminal</h2>
-              <a href="http://en.wikipedia.org/wiki/Command-line_interface">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>GitHub</h2>
-              <a href="https://github.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Grunt</h2>
-              <a href="http://gruntjs.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Firebase</h2>
-              <a href="https://www.firebase.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>JS Hint</h2>
-              <a href="http://www.jshint.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Foundation</h2>
-              <a href="http://foundation.zurb.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Rails</h2>
-              <a href="http://guides.rubyonrails.org/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>SASS</h2>
-              <a href="http://sass-lang.com/guide">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Node</h2>
-              <a href="http://nodejs.org/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>RSpec</h2>
-              <a href="http://rspec.info/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Heroku</h2>
-              <a href="http://heroku.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Haml</h2>
-              <a href="http://haml.info/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Github Pages</h2>
-              <a href="https://pages.github.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Jekyll</h2>
-              <a href="http://jekyllrb.com/">View more</a>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey">
-            <figcaption>
-              <h2>Angular.JS</h2>
-              <a href="https://angularjs.org">View more</a>
-            </figcaption>
-          </figure>
-          <!-- <figure class="effect-honey">
-            <figcaption>
-              <h2></h2>
-              <a href="">View more</a>
-            </figcaption>
-          </figure> -->
         </div>
         <div id="footer_wrap" class="outer animated fadeIn">
           <footer class="inner">
@@ -265,11 +91,14 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- ANGULAR JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/overlay-menu.js"></script>
     <script src="js/lodash.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/directives.js"></script>
     <script src="js/main.js"></script>
 
   </body>
