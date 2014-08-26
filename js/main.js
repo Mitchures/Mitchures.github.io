@@ -1,6 +1,9 @@
 (function(){
+  // var app = angular.module('portfolio', []);
 
-  'use strict';
+  // app.controller('PicController', function(){
+
+  // });
 
   $(document).ready(initialize);
 

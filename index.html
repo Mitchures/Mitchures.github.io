@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="portfolio">
 
   <head>
     <meta charset='utf-8' />
@@ -30,7 +30,7 @@
     <div class="container home">
 
       <div id="cbp-so-scroller" class="cbp-so-scroller">
-        <section class="cbp-so-section">
+        <section class="cbp-so-section" ng-controller="PicController as pic">
             <article id='greeting' class="cbp-so-side cbp-so-side-left animated fadeInDown content">
               <!-- h2 generated greeting here -->
             </article>
